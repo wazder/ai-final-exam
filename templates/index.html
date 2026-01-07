@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Final Sınav Hazırlık</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>Kaynaklar</h3>
+                <button class="sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="sidebar-content">
+                <div class="source-item active" data-source="all" onclick="selectSource('all')">
+                    <span class="source-icon">🎲</span>
+                    <span class="source-name">Karışık</span>
+                    <span class="source-count" id="count-all">0</span>
+                </div>
+                <div class="sources-list" id="sources-list">
+                    <!-- Kaynaklar JavaScript ile doldurulacak -->
+                </div>
+            </div>
+        </aside>
+
+        <!-- Mobile Sidebar Toggle -->
+        <button class="mobile-sidebar-btn" id="mobile-sidebar-btn" onclick="toggleSidebar()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </button>
+
+        <!-- Main Container -->
+        <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="stats-bar">
+                <div class="stat correct-stat">
+                    <span class="stat-icon">✓</span>
+                    <span id="correct-count">0</span>
+                </div>
+                <div class="stat wrong-stat">
+                    <span class="stat-icon">✗</span>
+                    <span id="wrong-count">0</span>
+                </div>
+                <div class="stat total-stat">
+                    <span class="stat-icon">📝</span>
+                    <span id="current-question">1</span>/<span id="total-questions">{{ total_questions }}</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Start Screen -->
+            <div id="start-screen" class="screen active">
+                <div class="start-card">
+                    <div class="start-icon">🎯</div>
+                    <h2>Sınava Hazır mısın?</h2>
+                    <p>Toplam <strong>{{ total_questions }}</strong> soru seni bekliyor.</p>
+                    <p class="subtitle">Her soru için bir şık seç ve bilgini test et!</p>
+                    <button class="btn-primary" onclick="startQuiz()">
+                        <span>Başla</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Quiz Screen -->
+            <div id="quiz-screen" class="screen">
+                <div class="question-card">
+                    <div class="question-header">
+                        <span class="question-number">Soru <span id="q-number">1</span></span>
+                        <span class="question-category" id="q-category"></span>
+                    </div>
+                    <h2 class="question-text" id="question-text"></h2>
+                    <div class="options-container" id="options-container">
+                        <!-- Options will be inserted here -->
+                    </div>
+                    <div class="explanation-box" id="explanation-box">
+                        <div class="explanation-header">
+                            <span class="explanation-icon" id="explanation-icon">💡</span>
+                            <span class="explanation-title" id="explanation-title">Açıklama</span>
+                        </div>
+                        <p id="explanation-text"></p>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-secondary" id="prev-btn" onclick="prevQuestion()" disabled>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Önceki</span>
+                        </button>
+                        <button class="btn-primary" id="next-btn" onclick="nextQuestion()" disabled>
+                            <span>Sonraki</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="results-screen" class="screen">
+                <div class="results-card">
+                    <div class="results-icon" id="results-icon">🏆</div>
+                    <h2>Tebrikler!</h2>
+                    <p class="results-subtitle">Tüm soruları tamamladın.</p>
+                    
+                    <div class="results-stats">
+                        <div class="result-stat">
+                            <div class="result-circle correct-circle">
+                                <span id="final-correct">0</span>
+                            </div>
+                            <span class="result-label">Doğru</span>
+                        </div>
+                        <div class="result-stat">
+                            <div class="result-circle wrong-circle">
+                                <span id="final-wrong">0</span>
+                            </div>
+                            <span class="result-label">Yanlış</span>
+                        </div>
+                        <div class="result-stat">
+                            <div class="result-circle total-circle">
+                                <span id="final-percentage">0%</span>
+                            </div>
+                            <span class="result-label">Başarı</span>
+                        </div>
+                    </div>
+
+                    <div class="results-message" id="results-message"></div>
+
+                    <div class="results-actions">
+                        <button class="btn-secondary" onclick="reviewQuiz()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>Gözden Geçir</span>
+                        </button>
+                        <button class="btn-primary" onclick="restartQuiz()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M1 4V10H7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.51 15C4.15839 16.8404 5.38734 18.4202 7.01166 19.5014C8.63598 20.5826 10.5677 21.1066 12.5157 20.9945C14.4637 20.8823 16.3226 20.1402 17.8121 18.8798C19.3017 17.6193 20.3413 15.9092 20.7742 14.0064C21.2072 12.1035 21.0101 10.1084 20.2126 8.32719C19.4152 6.54602 18.0605 5.07159 16.3528 4.12532C14.6451 3.17905 12.6769 2.81221 10.7447 3.0803C8.81245 3.34839 7.02091 4.23633 5.64 5.61L1 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Tekrar Başla</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>wazder</p>
+        </footer>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
