@@ -37,8 +37,15 @@ document.addEventListener('DOMContentLoaded', () => {
 // Toggle Sidebar
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
+    const toggleIcon = document.getElementById('toggle-icon');
     sidebar.classList.toggle('collapsed');
-    sidebar.classList.toggle('open');
+    
+    // İkon değiştir
+    if (sidebar.classList.contains('collapsed')) {
+        toggleIcon.innerHTML = '<path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>';
+    } else {
+        toggleIcon.innerHTML = '<path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
+    }
 }
 
 // Load questions from API
@@ -79,29 +86,23 @@ function renderSourcesList() {
     // Toplam sayıyı güncelle
     countAll.textContent = allQuestions.length;
     
-    // Kaynak emojileri
-    const sourceIcons = {
-        'FP': '🧠',
-        'Python': '🐍',
-        'Flask': '🌶️',
-        'HTML': '🌐',
-        'ML': '🤖',
-        'AI': '🤖',
-        'DL': '📊',
-        'NN': '🔗',
-        'Diğer': '📚'
-    };
+    // PDF emojileri (1-12 için farklı renkler/emojiler)
+    const slideEmojis = ['📗', '📘', '📙', '📕', '📓', '📔', '📒', '📚', '📖', '📑', '📋', '📄'];
     
-    sourcesList.innerHTML = '<div class="sources-divider">Kategoriler</div>';
+    sourcesList.innerHTML = '<div class="sources-divider">PDFs</div>';
     
-    // Kategorileri sırala ve listele
-    Object.keys(sources).sort().forEach(cat => {
-        const icon = sourceIcons[cat] || '📖';
+    // Kategorileri slayt numarasına göre sırala (10'dan 1'e)
+    const sortedCategories = Object.keys(sources).sort((a, b) => {
+        const numA = parseInt(a.match(/\d+/)?.[0]) || 0;
+        const numB = parseInt(b.match(/\d+/)?.[0]) || 0;
+        return numB - numA;  // Azalan sıra
+    });
+    
+    sortedCategories.forEach(cat => {
         const isActive = currentSource === cat;
         
         sourcesList.innerHTML += `
             <div class="source-item ${isActive ? 'active' : ''}" data-source="${cat}" onclick="selectSource('${cat}')">
-                <span class="source-icon">${icon}</span>
                 <span class="source-name">${cat}</span>
                 <span class="source-count">${sources[cat]}</span>
             </div>
@@ -182,16 +183,30 @@ function startQuiz() {
 function displayQuestion() {
     const question = questions[currentQuestionIndex];
     
-    // Soru kodu ve numarasını göster
-    const codeDisplay = question.code ? `${question.code}` : `Soru ${currentQuestionIndex + 1}`;
+    // Soru kodu ve numarasını göster (SN1-2 -> PDF 1 / Q2)
+    let codeDisplay = `Q${currentQuestionIndex + 1}`;
+    if (question.code) {
+        const codeMatch = question.code.match(/SN(\d+)-(\d+)/i);
+        if (codeMatch) {
+            codeDisplay = `PDF ${codeMatch[1]} / Q${codeMatch[2]}`;
+        } else {
+            codeDisplay = question.code;
+        }
+    }
     questionNumberEl.textContent = codeDisplay;
     currentQuestionEl.textContent = currentQuestionIndex + 1;
     questionTextEl.textContent = question.question;
     
-    // Kategoriyi göster
+    // Kategori ve FP tag'ini göster
     const categoryEl = document.getElementById('q-category');
     if (categoryEl) {
-        categoryEl.textContent = question.category || '';
+        let categoryText = question.category || '';
+        if (question.fp_tag) {
+            // FP -> From PDF olarak göster
+            const fpDisplay = question.fp_tag === 'FP' ? 'From PDF' : question.fp_tag;
+            categoryText += (categoryText ? ' • ' : '') + fpDisplay;
+        }
+        categoryEl.textContent = categoryText;
     }
     
     // Update progress bar
@@ -243,14 +258,14 @@ function displayQuestion() {
     // Update next button text on last question
     if (currentQuestionIndex === questions.length - 1 && answeredQuestions.size === questions.length) {
         nextBtn.innerHTML = `
-            <span>Sonuçlar</span>
+            <span>Results</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         `;
     } else {
         nextBtn.innerHTML = `
-            <span>Sonraki</span>
+            <span>Next</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -338,7 +353,7 @@ function showExplanation(text, isCorrect) {
     explanationBox.classList.add(isCorrect ? 'correct' : 'wrong');
     
     explanationIcon.textContent = isCorrect ? '✓' : '✗';
-    explanationTitle.textContent = isCorrect ? 'Doğru!' : 'Yanlış!';
+    explanationTitle.textContent = isCorrect ? 'Correct!' : 'Wrong!';
     explanationText.textContent = text;
 }
 
@@ -387,16 +402,16 @@ function showResults() {
     
     if (percentage >= 90) {
         resultsIcon.textContent = '🏆';
-        resultsMessage.textContent = 'Mükemmel! Sınava çok iyi hazırsın!';
+        resultsMessage.textContent = 'Excellent! You are very well prepared for the exam!';
     } else if (percentage >= 70) {
         resultsIcon.textContent = '🎉';
-        resultsMessage.textContent = 'Harika! Biraz daha çalışmayla tam hazır olacaksın.';
+        resultsMessage.textContent = 'Great! With a little more practice, you\'ll be fully ready.';
     } else if (percentage >= 50) {
         resultsIcon.textContent = '💪';
-        resultsMessage.textContent = 'İyi gidiyorsun, ama daha fazla pratik yapmalısın.';
+        resultsMessage.textContent = 'Good progress, but you need more practice.';
     } else {
         resultsIcon.textContent = '📚';
-        resultsMessage.textContent = 'Konuları tekrar gözden geçirmeni öneririm.';
+        resultsMessage.textContent = 'I recommend reviewing the topics again.';
     }
 }
 

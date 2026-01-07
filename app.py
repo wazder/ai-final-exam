@@ -50,9 +50,9 @@ def load_questions():
         
         for md_file in md_files:
             filepath = os.path.join(data_path, md_file)
-            # Dosya adından slayt numarasını çıkar (s1.md -> Slayt 1, s10.md -> Slayt 10)
+            # Dosya adından slayt numarasını çıkar (s1.md -> PDF 1, s10.md -> PDF 10)
             slide_match = re.match(r's(\d+)\.md', md_file, re.IGNORECASE)
-            slide_category = f"Slayt {slide_match.group(1)}" if slide_match else "Diğer"
+            slide_category = f"PDF {slide_match.group(1)}" if slide_match else "Diğer"
             
             questions = parse_questions_from_md(filepath, slide_category)
             all_questions.extend(questions)
@@ -223,7 +223,8 @@ def parse_old_format(content, slide_category="Genel"):
             questions.append({
                 "id": i,
                 "code": "",
-                "category": "",
+                "category": slide_category,
+                "fp_tag": "",
                 "question": question_text.strip(),
                 "options": options,
                 "correct": correct,
@@ -249,6 +250,7 @@ def get_questions():
             "id": q["id"],
             "code": q.get("code", ""),
             "category": q.get("category", ""),
+            "fp_tag": q.get("fp_tag", ""),
             "question": q["question"],
             "options": q["options"]
         })

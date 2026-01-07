@@ -47,12 +47,12 @@ body {
 .app-layout {
     display: flex;
     min-height: 100vh;
+    justify-content: center;
 }
 
 /* Sidebar */
 .sidebar {
     width: 260px;
-    min-width: 260px;
     background: var(--bg-secondary);
     border-right: 1px solid var(--border-color);
     display: flex;
@@ -63,10 +63,48 @@ body {
     top: 0;
     height: 100vh;
     z-index: 100;
+    overflow: hidden;
 }
 
 .sidebar.collapsed {
-    transform: translateX(-260px);
+    width: 0;
+    border-right: none;
+}
+
+.sidebar.collapsed .sidebar-content,
+.sidebar.collapsed .sidebar-header h3 {
+    display: none;
+}
+
+.sidebar.collapsed .sidebar-header {
+    display: none;
+}
+
+/* Sidebar toggle button - always visible */
+.sidebar-toggle-fixed {
+    position: fixed;
+    left: 16px;
+    top: 16px;
+    z-index: 101;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 10px;
+    cursor: pointer;
+    color: var(--text-primary);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-toggle-fixed:hover {
+    background: var(--bg-tertiary);
+    border-color: var(--accent-blue);
+}
+
+.sidebar:not(.collapsed) ~ .sidebar-toggle-fixed {
+    left: 276px;
 }
 
 .sidebar-header {
@@ -74,6 +112,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    padding-left: 60px;  /* Toggle butonu için boşluk */
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -170,50 +209,31 @@ body {
 /* Mobile sidebar button */
 .mobile-sidebar-btn {
     display: none;
-    position: fixed;
-    left: 16px;
-    top: 16px;
-    z-index: 99;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
-    padding: 10px;
-    cursor: pointer;
-    color: var(--text-primary);
 }
 
 .container {
     max-width: 900px;
-    margin: 0 auto;
-    margin-left: 260px;
+    width: 100%;
     padding: 20px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex: 1;
-    transition: var(--transition);
-}
-
-.sidebar.collapsed + .mobile-sidebar-btn + .container {
-    margin-left: 0;
+    /* Her zaman ortada */
+    margin: 0 auto;
 }
 
 /* Responsive sidebar */
 @media (max-width: 1024px) {
     .sidebar {
-        transform: translateX(-260px);
+        width: 280px;
     }
     
-    .sidebar.open {
-        transform: translateX(0);
+    .sidebar.collapsed {
+        width: 0;
     }
     
-    .mobile-sidebar-btn {
-        display: flex;
-    }
-    
-    .container {
-        margin-left: 0;
+    .sidebar:not(.collapsed) ~ .sidebar-toggle-fixed {
+        left: 296px;
     }
 }
 
