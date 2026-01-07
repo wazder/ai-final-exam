@@ -72,13 +72,34 @@ function renderSourcesList() {
     const countAll = document.getElementById('count-all');
     if (!sourcesList) return;
     countAll.textContent = allQuestions.length;
-    sourcesList.innerHTML = '<div class="sources-divider">PDFs</div>';
-    const sortedCategories = Object.keys(sources).sort((a, b) => {
+    
+    // Separate KAAN and PDF categories
+    const kaanCats = Object.keys(sources).filter(c => c === 'KAAN');
+    const pdfCats = Object.keys(sources).filter(c => c.startsWith('PDF')).sort((a, b) => {
         const numA = parseInt(a.match(/\d+/)?.[0]) || 0;
         const numB = parseInt(b.match(/\d+/)?.[0]) || 0;
         return numB - numA;
     });
-    sortedCategories.forEach(cat => {
+    
+    sourcesList.innerHTML = '';
+    
+    // KAAN section
+    if (kaanCats.length > 0) {
+        sourcesList.innerHTML += '<div class="sources-divider">KAAN</div>';
+        kaanCats.forEach(cat => {
+            const isActive = currentSource === cat;
+            sourcesList.innerHTML += `
+                <div class="source-item ${isActive ? 'active' : ''}" data-source="${cat}" onclick="selectSource('${cat}')">
+                    <span class="source-name">${cat}</span>
+                    <span class="source-count">${sources[cat]}</span>
+                </div>
+            `;
+        });
+    }
+    
+    // PDFs section
+    sourcesList.innerHTML += '<div class="sources-divider">PDFs</div>';
+    pdfCats.forEach(cat => {
         const isActive = currentSource === cat;
         sourcesList.innerHTML += `
             <div class="source-item ${isActive ? 'active' : ''}" data-source="${cat}" onclick="selectSource('${cat}')">

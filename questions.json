@@ -1,1 +1,4790 @@
-[{"id": 1, "code": "SN1-1", "category": "PDF 1", "fp_tag": "FP", "question": "Why do definitions of Artificial Intelligence differ among researchers?", "options": ["AI is already fully understood", "Intelligence has multiple dimensions and interpretations", "There is a single formal definition", "AI systems are identical"], "correct": 1}, {"id": 2, "code": "SN1-2", "category": "PDF 1", "fp_tag": "FP", "question": "Who introduced the term “Artificial Intelligence”?", "options": ["Alan Turing", "John McCarthy", "Marvin Minsky", "Claude Shannon"], "correct": 1}, {"id": 3, "code": "SN1-3", "category": "PDF 1", "fp_tag": "FP", "question": "What is the primary goal of Artificial Intelligence according to John McCarthy?", "options": ["To simulate the human brain exactly", "To replace human intelligence", "To build machines that behave intelligently", "To eliminate uncertainty"], "correct": 2}, {"id": 4, "code": "SN1-4", "category": "PDF 1", "fp_tag": "FP", "question": "What does the Turing Test evaluate?", "options": ["Computational speed", "Hardware efficiency", "Human-like intelligent behavior", "Learning accuracy"], "correct": 2}, {"id": 5, "code": "SN1-5", "category": "PDF 1", "fp_tag": "", "question": "Which component is fundamental to the concept of intelligent agents?", "options": ["Randomness", "Emotion", "Perception and action", "Fixed rules only"], "correct": 2}, {"id": 6, "code": "SN2-1", "category": "PDF 2", "fp_tag": "FP", "question": "What is the main limitation of propositional logic compared to predicate logic?", "options": ["It cannot represent truth values", "It lacks variables and quantifiers", "It cannot use logical operators", "It is undecidable"], "correct": 1}, {"id": 7, "code": "SN2-2", "category": "PDF 2", "fp_tag": "FP", "question": "Which symbol represents universal quantification?", "options": ["∃", "→", "∀", "∧"], "correct": 2}, {"id": 8, "code": "SN2-3", "category": "PDF 2", "fp_tag": "FP", "question": "What does the existential quantifier (∃) express?", "options": ["All elements satisfy a property", "No elements satisfy a property", "At least one element satisfies a property", "Exactly one element satisfies a property"], "correct": 2}, {"id": 9, "code": "SN2-4", "category": "PDF 2", "fp_tag": "FP", "question": "What is the role of semantics in logic?", "options": ["Define valid syntax", "Assign meaning to formulas", "Generate inference rules", "Optimize proofs"], "correct": 1}, {"id": 10, "code": "SN2-5", "category": "PDF 2", "fp_tag": "FP", "question": "What does it mean for a formula to be **satisfiable**?", "options": ["It is syntactically correct", "It is provable", "It is true under some interpretation", "It is always false"], "correct": 2}, {"id": 11, "code": "SN2-6", "category": "PDF 2", "fp_tag": "FP", "question": "Which logical method is commonly used for automated theorem proving?", "options": ["Gradient descent", "Resolution", "Hebbian learning", "Backpropagation"], "correct": 1}, {"id": 12, "code": "SN2-7", "category": "PDF 2", "fp_tag": "", "question": "Why does the use of quantifiers increase reasoning complexity?", "options": ["They remove variables", "They create infinite domains", "They eliminate inference rules", "They simplify models"], "correct": 1}, {"id": 13, "code": "SN2-8", "category": "PDF 2", "fp_tag": "", "question": "Which logic is fully decidable?", "options": ["First-order predicate logic", "Higher-order logic", "Propositional logic", "Default logic"], "correct": 2}, {"id": 14, "code": "SN2-9", "category": "PDF 2", "fp_tag": "", "question": "What does a **model** represent in logic?", "options": ["A proof procedure", "A truth assignment making formulas true", "A set of inference rules", "A database query"], "correct": 1}, {"id": 15, "code": "SN2-10", "category": "PDF 2", "fp_tag": "", "question": "Why is predicate logic more suitable for real-world knowledge representation?", "options": ["It avoids uncertainty", "It supports relations and quantification", "It is computationally simpler", "It eliminates ambiguity"], "correct": 1}, {"id": 16, "code": "SN3-1", "category": "PDF 3", "fp_tag": "FP", "question": "What does it mean for first-order logic to be **semi-decidable**?", "options": ["Every formula can be proven true or false", "All inference procedures terminate", "True statements can be proven, but termination is not guaranteed", "False statements are always detected"], "correct": 2}, {"id": 17, "code": "SN3-2", "category": "PDF 3", "fp_tag": "FP", "question": "What is the **search space problem** in logic-based AI systems?", "options": ["Lack of inference rules", "Exponential growth of possible inference paths", "Incomplete knowledge bases", "Limited memory of machines"], "correct": 1}, {"id": 18, "code": "SN3-3", "category": "PDF 3", "fp_tag": "FP", "question": "Why does automated reasoning become impractical in large search spaces?", "options": ["Rules become incorrect", "Proofs require infinite memory", "The number of inference steps grows explosively", "Logic loses consistency"], "correct": 2}, {"id": 19, "code": "SN3-4", "category": "PDF 3", "fp_tag": "FP", "question": "What does Gödel’s incompleteness theorem imply for logical systems?", "options": ["All true statements are provable", "All systems are inconsistent", "Some true statements cannot be proven within the system", "Logic is obsolete"], "correct": 2}, {"id": 20, "code": "SN3-5", "category": "PDF 3", "fp_tag": "FP", "question": "What key limitation of classical logic is illustrated by the Flying Penguin problem?", "options": ["Lack of expressiveness", "Inability to handle exceptions", "Lack of quantifiers", "Computational inefficiency"], "correct": 1}, {"id": 21, "code": "SN3-6", "category": "PDF 3", "fp_tag": "FP", "question": "What type of reasoning allows exceptions to default rules?", "options": ["Deductive reasoning", "Probabilistic reasoning", "Non-monotonic reasoning", "Symbolic reasoning"], "correct": 2}, {"id": 22, "code": "SN3-7", "category": "PDF 3", "fp_tag": "FP", "question": "In Prolog, what mechanism allows the system to explore alternative solutions?", "options": ["Forward chaining", "Resolution only", "Backtracking", "Gradient descent"], "correct": 2}, {"id": 23, "code": "SN3-8", "category": "PDF 3", "fp_tag": "FP", "question": "What is the role of **unification** in Prolog?", "options": ["Assign truth values", "Match terms and variables", "Optimize search trees", "Control recursion depth"], "correct": 1}, {"id": 24, "code": "SN3-9", "category": "PDF 3", "fp_tag": "", "question": "Why can Prolog programs fail to terminate?", "options": ["Lack of inference rules", "Infinite recursion in the search space", "Incorrect syntax", "Missing facts"], "correct": 1}, {"id": 25, "code": "SN3-10", "category": "PDF 3", "fp_tag": "", "question": "Which statement best summarizes the limitations of pure logic in AI?", "options": ["Logic is too expressive", "Logic cannot represent facts", "Logic struggles with uncertainty and scalability", "Logic replaces learning"], "correct": 2}, {"id": 26, "code": "SN4-1", "category": "PDF 4", "fp_tag": "FP", "question": "What is the main cause of the search space explosion problem in AI?", "options": ["Low branching factor", "High branching factor and large depth", "Deterministic environments", "Limited state representations"], "correct": 1}, {"id": 27, "code": "SN4-2", "category": "PDF 4", "fp_tag": "FP", "question": "What does the term **search space** refer to?", "options": ["The set of all input values", "The collection of all possible states to be explored", "Only the goal states", "The heuristic function"], "correct": 1}, {"id": 28, "code": "SN4-3", "category": "PDF 4", "fp_tag": "FP", "question": "Why is exhaustive search usually infeasible for large problems?", "options": ["It requires symbolic reasoning", "The number of possible states grows exponentially", "It lacks optimality", "It cannot find solutions"], "correct": 1}, {"id": 29, "code": "SN4-4", "category": "PDF 4", "fp_tag": "FP", "question": "Which search strategy explores all nodes at a given depth before going deeper?", "options": ["Depth-First Search (DFS)", "Breadth-First Search (BFS)", "Heuristic Search", "A* Search"], "correct": 1}, {"id": 30, "code": "SN4-5", "category": "PDF 4", "fp_tag": "FP", "question": "Which property is guaranteed by Breadth-First Search if all step costs are equal?", "options": ["Minimum memory usage", "Optimality", "Heuristic efficiency", "Incompleteness"], "correct": 1}, {"id": 31, "code": "SN4-6", "category": "PDF 4", "fp_tag": "FP", "question": "What is a major drawback of Breadth-First Search?", "options": ["It is incomplete", "It may get stuck in loops", "It requires large memory", "It is not systematic"], "correct": 2}, {"id": 32, "code": "SN4-7", "category": "PDF 4", "fp_tag": "FP", "question": "Which search strategy explores as deep as possible before backtracking?", "options": ["BFS", "DFS", "A*", "Greedy search"], "correct": 1}, {"id": 33, "code": "SN4-8", "category": "PDF 4", "fp_tag": "FP", "question": "What is a key advantage of Depth-First Search?", "options": ["Optimality", "Completeness", "Low memory usage", "Use of heuristics"], "correct": 2}, {"id": 34, "code": "SN4-9", "category": "PDF 4", "fp_tag": "FP", "question": "Why can Depth-First Search fail to find a solution?", "options": ["It uses too much memory", "It may follow infinite paths", "It requires heuristics", "It is probabilistic"], "correct": 1}, {"id": 35, "code": "SN4-10", "category": "PDF 4", "fp_tag": "FP", "question": "What is the main purpose of heuristic search?", "options": ["To guarantee optimality without cost", "To reduce the effective search space", "To eliminate uncertainty", "To replace state representation"], "correct": 1}, {"id": 36, "code": "SN4-11", "category": "PDF 4", "fp_tag": "FP", "question": "Which algorithm combines path cost and heuristic estimation?", "options": ["BFS", "DFS", "A* search", "Minimax"], "correct": 2}, {"id": 37, "code": "SN4-12", "category": "PDF 4", "fp_tag": "FP", "question": "When is A* search guaranteed to find an optimal solution?", "options": ["When the heuristic is random", "When the heuristic is admissible", "When the branching factor is small", "When costs are ignored"], "correct": 1}, {"id": 38, "code": "SN4-13", "category": "PDF 4", "fp_tag": "FP", "question": "Which type of problem does the **minimax algorithm** address?", "options": ["Single-agent optimization", "Probabilistic reasoning", "Two-player adversarial games", "Unsupervised clustering"], "correct": 2}, {"id": 39, "code": "SN4-14", "category": "PDF 4", "fp_tag": "FP", "question": "What is the purpose of alpha–beta pruning?", "options": ["Increase search depth", "Improve heuristic accuracy", "Reduce the number of evaluated nodes", "Guarantee faster convergence"], "correct": 2}, {"id": 40, "code": "SN4-15", "category": "PDF 4", "fp_tag": "", "question": "Which statement best explains why humans outperform brute-force search in complex problems?", "options": ["Humans evaluate all possibilities", "Humans use heuristics and intuition", "Humans avoid search entirely", "Humans rely on randomness"], "correct": 1}, {"id": 41, "code": "SN5-1", "category": "PDF 5", "fp_tag": "FP", "question": "Why is classical logic insufficient for reasoning in real-world situations?", "options": ["It is computationally inefficient", "It assumes binary true/false values", "It cannot represent symbols", "It requires complete datasets"], "correct": 1}, {"id": 42, "code": "SN5-2", "category": "PDF 5", "fp_tag": "FP", "question": "What main issue is illustrated by the Flying Penguin (Tweety) problem?", "options": ["Lack of inference rules", "Inability to represent learning", "Failure of monotonic reasoning with exceptions", "Incorrect probability estimates"], "correct": 2}, {"id": 43, "code": "SN5-3", "category": "PDF 5", "fp_tag": "FP", "question": "What does monotonic reasoning mean in classical logic?", "options": ["Conclusions become more accurate with new facts", "Conclusions never change when new facts are added", "Conclusions are probabilistic", "Conclusions depend on thresholds"], "correct": 1}, {"id": 44, "code": "SN5-4", "category": "PDF 5", "fp_tag": "FP", "question": "Why does learning that “Tweety is a penguin” cause a problem in classical logic?", "options": ["Penguins are mammals", "It contradicts a default rule", "It removes all previous knowledge", "It creates cyclic reasoning"], "correct": 1}, {"id": 45, "code": "SN5-5", "category": "PDF 5", "fp_tag": "FP", "question": "Which type of reasoning allows conclusions to be withdrawn when new information appears?", "options": ["Deductive reasoning", "Inductive reasoning", "Non-monotonic reasoning", "Symbolic reasoning"], "correct": 2}, {"id": 46, "code": "SN5-6", "category": "PDF 5", "fp_tag": "FP", "question": "What is the core idea behind using probabilities in AI reasoning?", "options": ["To eliminate uncertainty", "To assign degrees of belief instead of absolute truth", "To speed up inference", "To replace logic completely"], "correct": 1}, {"id": 47, "code": "SN5-7", "category": "PDF 5", "fp_tag": "FP", "question": "What does conditional probability P(A | B) represent?", "options": ["Probability of B given A", "Joint probability of A and B", "Probability of A given B", "Marginal probability of A"], "correct": 2}, {"id": 48, "code": "SN5-8", "category": "PDF 5", "fp_tag": "FP", "question": "Which theorem formally relates conditional and prior probabilities?", "options": ["De Morgan’s Law", "Bayes’ Theorem", "Law of Large Numbers", "Resolution Theorem"], "correct": 1}, {"id": 49, "code": "SN5-9", "category": "PDF 5", "fp_tag": "FP", "question": "In Bayesian reasoning, what does the **prior probability** represent?", "options": ["Updated belief after evidence", "Probability of evidence", "Initial belief before observing evidence", "Error probability"], "correct": 2}, {"id": 50, "code": "SN5-10", "category": "PDF 5", "fp_tag": "FP", "question": "What does the **posterior probability** represent?", "options": ["Initial belief", "Probability before evidence", "Updated belief after evidence", "Joint probability"], "correct": 2}, {"id": 51, "code": "SN5-11", "category": "PDF 5", "fp_tag": "FP", "question": "Why is Bayesian updating important in AI systems?", "options": ["It removes noise", "It allows beliefs to change with new evidence", "It guarantees correctness", "It simplifies logic rules"], "correct": 1}, {"id": 52, "code": "SN5-12", "category": "PDF 5", "fp_tag": "FP", "question": "Which early expert system used certainty factors instead of full probability theory?", "options": ["LEXMED", "MYCIN", "PROLOG", "SHRDLU"], "correct": 1}, {"id": 53, "code": "SN5-13", "category": "PDF 5", "fp_tag": "FP", "question": "Why were certainty factors used in early expert systems?", "options": ["Probability theory was unknown", "They were easier to implement than full probabilistic models", "They guaranteed optimal decisions", "They eliminated uncertainty"], "correct": 1}, {"id": 54, "code": "SN5-14", "category": "PDF 5", "fp_tag": "FP", "question": "What is a key limitation of certainty factors compared to Bayesian probability?", "options": ["They are computationally expensive", "They lack a solid mathematical foundation", "They require too much data", "They cannot handle rules"], "correct": 1}, {"id": 55, "code": "SN5-15", "category": "PDF 5", "fp_tag": "FP", "question": "What structure defines a Bayesian network?", "options": ["Undirected cyclic graph", "Directed acyclic graph with probabilities", "Decision tree with rules", "Fully connected neural network"], "correct": 1}, {"id": 56, "code": "SN5-16", "category": "PDF 5", "fp_tag": "FP", "question": "In a Bayesian network, what do nodes represent?", "options": ["Logical rules", "Random variables", "Class labels only", "Feature vectors"], "correct": 1}, {"id": 57, "code": "SN5-17", "category": "PDF 5", "fp_tag": "FP", "question": "What do edges in a Bayesian network indicate?", "options": ["Temporal order", "Causal certainty", "Direct probabilistic dependencies", "Logical implication only"], "correct": 2}, {"id": 58, "code": "SN5-18", "category": "PDF 5", "fp_tag": "FP", "question": "What is the role of Conditional Probability Tables (CPTs)?", "options": ["Store training data", "Define P(Node | Parents)", "Perform inference automatically", "Encode logical rules"], "correct": 1}, {"id": 59, "code": "SN5-19", "category": "PDF 5", "fp_tag": "", "question": "Which property allows Bayesian networks to simplify complex probability calculations?", "options": ["Complete connectivity", "Conditional independence", "Logical consistency", "Linear separability"], "correct": 1}, {"id": 60, "code": "SN5-20", "category": "PDF 5", "fp_tag": "", "question": "Which real-world application commonly uses Bayesian networks?", "options": ["Sorting algorithms", "Medical diagnosis", "Compiler optimization", "Text rendering"], "correct": 1}, {"id": 61, "code": "SN6-1", "category": "PDF 6", "fp_tag": "FP", "question": "What is the main difference between traditional programming and machine learning?", "options": ["Machine learning uses no algorithms", "Traditional programming learns from data", "Machine learning derives behavior from data instead of explicit rules", "Traditional programming is probabilistic"], "correct": 2}, {"id": 62, "code": "SN6-2", "category": "PDF 6", "fp_tag": "FP", "question": "In machine learning, what does the term **generalization** refer to?", "options": ["Perfect performance on training data", "Ability to perform well on unseen data", "Increasing model complexity", "Memorizing examples"], "correct": 1}, {"id": 63, "code": "SN6-3", "category": "PDF 6", "fp_tag": "FP", "question": "What problem occurs when a model fits training data too closely?", "options": ["Generalization", "Underfitting", "Overfitting", "Feature selection"], "correct": 2}, {"id": 64, "code": "SN6-4", "category": "PDF 6", "fp_tag": "FP", "question": "Why is overfitting undesirable in machine learning?", "options": ["It increases training speed", "It reduces performance on new data", "It simplifies the model", "It guarantees accuracy"], "correct": 1}, {"id": 65, "code": "SN6-5", "category": "PDF 6", "fp_tag": "FP", "question": "Which type of learning uses labeled training data?", "options": ["Unsupervised learning", "Reinforcement learning", "Supervised learning", "Evolutionary learning"], "correct": 2}, {"id": 66, "code": "SN6-6", "category": "PDF 6", "fp_tag": "FP", "question": "Which type of learning discovers patterns without labeled outputs?", "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Transfer learning"], "correct": 1}, {"id": 67, "code": "SN6-7", "category": "PDF 6", "fp_tag": "FP", "question": "In Ertel’s apple classification example, what is the learning goal?", "options": ["Predict apple prices", "Separate apples into predefined classes", "Detect outliers only", "Sort apples by size"], "correct": 1}, {"id": 68, "code": "SN6-8", "category": "PDF 6", "fp_tag": "FP", "question": "What does a **learning agent** formally represent?", "options": ["A hard-coded decision system", "A function mapping features to outputs", "A symbolic reasoning engine", "A database query"], "correct": 1}, {"id": 69, "code": "SN6-9", "category": "PDF 6", "fp_tag": "FP", "question": "Why must a learning agent be evaluated on test data?", "options": ["To increase training size", "To verify generalization ability", "To reduce features", "To remove noise"], "correct": 1}, {"id": 70, "code": "SN6-10", "category": "PDF 6", "fp_tag": "FP", "question": "Which component is essential for training a supervised learning agent?", "options": ["Unlabeled data", "Reward signals only", "Labeled examples", "Random weights"], "correct": 2}, {"id": 71, "code": "SN6-11", "category": "PDF 6", "fp_tag": "FP", "question": "What is the main purpose of **feature selection**?", "options": ["Increase dataset size", "Improve accuracy and efficiency", "Remove labels", "Increase model depth"], "correct": 1}, {"id": 72, "code": "SN6-12", "category": "PDF 6", "fp_tag": "FP", "question": "Which phrase summarizes a common issue in data analysis?", "options": ["“More data, less noise”", "“Garbage in, garbage out”", "“Accuracy beats simplicity”", "“Features are optional”"], "correct": 1}, {"id": 73, "code": "SN6-13", "category": "PDF 6", "fp_tag": "FP", "question": "What is the first step in the data mining process?", "options": ["Pattern evaluation", "Feature selection", "Data collection", "Model deployment"], "correct": 2}, {"id": 74, "code": "SN6-14", "category": "PDF 6", "fp_tag": "FP", "question": "Which step transforms raw data into a suitable format for learning?", "options": ["Evaluation", "Data preprocessing", "Classification", "Visualization"], "correct": 1}, {"id": 75, "code": "SN6-15", "category": "PDF 6", "fp_tag": "FP", "question": "What is the output of the data mining process?", "options": ["Raw data", "Hardware configuration", "Patterns or knowledge", "Feature vectors only"], "correct": 2}, {"id": 76, "code": "SN6-16", "category": "PDF 6", "fp_tag": "FP", "question": "Why is preprocessing important before learning?", "options": ["It increases randomness", "It removes the need for training", "It improves data quality", "It eliminates uncertainty"], "correct": 2}, {"id": 77, "code": "SN6-17", "category": "PDF 6", "fp_tag": "", "question": "Which step evaluates the usefulness of discovered patterns?", "options": ["Data collection", "Feature extraction", "Evaluation", "Transformation"], "correct": 2}, {"id": 78, "code": "SN6-18", "category": "PDF 6", "fp_tag": "FP", "question": "What does the term **training phase** refer to?", "options": ["Deploying the model", "Learning from labeled or unlabeled data", "Testing generalization only", "Feature removal"], "correct": 1}, {"id": 79, "code": "SN6-19", "category": "PDF 6", "fp_tag": "", "question": "Which factor most strongly influences a model’s ability to generalize?", "options": ["Dataset size and diversity", "Hardware speed", "Programming language", "Output format"], "correct": 0}, {"id": 80, "code": "SN6-20", "category": "PDF 6", "fp_tag": "FP", "question": "Why is testing on unseen data critical?", "options": ["To increase overfitting", "To validate learning performance", "To reduce training cost", "To optimize hardware"], "correct": 1}, {"id": 81, "code": "SN6-21", "category": "PDF 6", "fp_tag": "", "question": "Which learning paradigm uses reward signals rather than labels?", "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Statistical learning"], "correct": 2}, {"id": 82, "code": "SN6-22", "category": "PDF 6", "fp_tag": "FP", "question": "Which task best represents a classification problem?", "options": ["Predicting temperature", "Grouping similar documents", "Assigning spam or non-spam labels", "Reducing dimensionality"], "correct": 2}, {"id": 83, "code": "SN6-23", "category": "PDF 6", "fp_tag": "", "question": "Which task best represents a clustering problem?", "options": ["Assigning known labels", "Predicting continuous outputs", "Discovering groups without labels", "Maximizing margins"], "correct": 2}, {"id": 84, "code": "SN6-24", "category": "PDF 6", "fp_tag": "FP", "question": "Why is machine learning preferred over traditional programming in complex tasks?", "options": ["It requires no data", "Explicit rules are difficult to define", "It avoids computation", "It guarantees correctness"], "correct": 1}, {"id": 85, "code": "SN6-25", "category": "PDF 6", "fp_tag": "", "question": "Which statement best summarizes machine learning?", "options": ["Rule-based automation", "Manual decision-making", "Learning patterns from data", "Symbolic inference only"], "correct": 2}, {"id": 86, "code": "SN7-1", "category": "PDF 7", "fp_tag": "FP", "question": "What is the fundamental assumption of the Naive Bayes classifier?", "options": ["Features are linearly separable", "Features are conditionally independent given the class", "Classes have equal prior probabilities", "Training data is noise-free"], "correct": 1}, {"id": 87, "code": "SN7-2", "category": "PDF 7", "fp_tag": "FP", "question": "Why can Naive Bayes still perform well even when the independence assumption is violated?", "options": ["It uses deep architectures", "Errors often cancel out in probability estimation", "It ignores irrelevant features automatically", "It relies on rule-based inference"], "correct": 1}, {"id": 88, "code": "SN7-3", "category": "PDF 7", "fp_tag": "FP", "question": "Which probability does Naive Bayes compute to perform classification?", "options": ["P(Features)", "P(Class | Features)", "P(Features | Features)", "P(Class | Class)"], "correct": 1}, {"id": 89, "code": "SN7-4", "category": "PDF 7", "fp_tag": "FP", "question": "Which theorem provides the mathematical foundation for Naive Bayes?", "options": ["Central Limit Theorem", "Bayes’ Theorem", "Law of Large Numbers", "Chain Rule of Calculus"], "correct": 1}, {"id": 90, "code": "SN7-5", "category": "PDF 7", "fp_tag": "FP", "question": "What is a key limitation of the perceptron model?", "options": ["It requires too much memory", "It can only learn linearly separable patterns", "It cannot handle numerical data", "It is unsupervised"], "correct": 1}, {"id": 91, "code": "SN7-6", "category": "PDF 7", "fp_tag": "FP", "question": "How do multi-layer neural networks overcome the perceptron’s limitation?", "options": ["By using symbolic rules", "By introducing hidden layers", "By reducing input features", "By removing activation functions"], "correct": 1}, {"id": 92, "code": "SN7-7", "category": "PDF 7", "fp_tag": "FP", "question": "What type of learning problem does a decision tree primarily solve?", "options": ["Unsupervised clustering", "Reinforcement learning", "Supervised classification", "Sequence prediction"], "correct": 2}, {"id": 93, "code": "SN7-8", "category": "PDF 7", "fp_tag": "FP", "question": "Which criterion is commonly used to split nodes in decision tree learning?", "options": ["Euclidean distance", "Information gain", "Learning rate", "Margin size"], "correct": 1}, {"id": 94, "code": "SN7-9", "category": "PDF 7", "fp_tag": "FP", "question": "What is a major advantage of decision trees?", "options": ["They require large datasets", "They are easy to interpret", "They are always optimal", "They avoid overfitting automatically"], "correct": 1}, {"id": 95, "code": "SN7-10", "category": "PDF 7", "fp_tag": "FP", "question": "Which problem do decision trees commonly suffer from?", "options": ["Underfitting only", "Overfitting", "Lack of interpretability", "Requirement of kernels"], "correct": 1}, {"id": 96, "code": "SN7-11", "category": "PDF 7", "fp_tag": "", "question": "What technique is commonly used to reduce overfitting in decision trees?", "options": ["Increasing depth", "Pruning", "Increasing learning rate", "Removing labels"], "correct": 1}, {"id": 97, "code": "SN7-12", "category": "PDF 7", "fp_tag": "FP", "question": "What does correlation analysis help identify in datasets?", "options": ["Causal relationships only", "Feature relationships and dependencies", "Optimal classifiers", "Network architectures"], "correct": 1}, {"id": 98, "code": "SN7-13", "category": "PDF 7", "fp_tag": "FP", "question": "Why is feature selection important in machine learning?", "options": ["It increases dataset size", "It improves model accuracy and efficiency", "It removes the need for training", "It guarantees generalization"], "correct": 1}, {"id": 99, "code": "SN7-14", "category": "PDF 7", "fp_tag": "FP", "question": "Which method classifies a data point based on similarity to stored examples?", "options": ["Decision trees", "Naive Bayes", "Nearest Neighbor", "Perceptron"], "correct": 2}, {"id": 100, "code": "SN7-15", "category": "PDF 7", "fp_tag": "FP", "question": "What is a key drawback of the k-Nearest Neighbor method?", "options": ["It requires model training", "It has high computation cost at prediction time", "It assumes feature independence", "It cannot handle noise"], "correct": 1}, {"id": 101, "code": "SN7-16", "category": "PDF 7", "fp_tag": "FP", "question": "Which distance metric is commonly used in nearest neighbor methods?", "options": ["Manhattan distance", "Euclidean distance", "Hamming distance", "All of the above"], "correct": 3}, {"id": 102, "code": "SN7-17", "category": "PDF 7", "fp_tag": "", "question": "What happens when k is chosen too small in k-NN?", "options": ["Model underfits", "Model overfits", "Computation becomes impossible", "Distance metrics fail"], "correct": 1}, {"id": 103, "code": "SN7-18", "category": "PDF 7", "fp_tag": "", "question": "What happens when k is chosen too large in k-NN?", "options": ["Overfitting increases", "Decision boundaries become smoother", "Training fails", "Noise dominates"], "correct": 1}, {"id": 104, "code": "SN7-19", "category": "PDF 7", "fp_tag": "FP", "question": "Which learning paradigm does Naive Bayes belong to?", "options": ["Unsupervised learning", "Supervised learning", "Reinforcement learning", "Evolutionary learning"], "correct": 1}, {"id": 105, "code": "SN7-20", "category": "PDF 7", "fp_tag": "FP", "question": "Which statement about probabilistic classifiers is correct?", "options": ["They output only class labels", "They ignore uncertainty", "They model uncertainty explicitly", "They require linear separability"], "correct": 2}, {"id": 106, "code": "SN7-21", "category": "PDF 7", "fp_tag": "", "question": "Which factor most influences decision tree complexity?", "options": ["Learning rate", "Tree depth", "Distance metric", "Prior probabilities"], "correct": 1}, {"id": 107, "code": "SN7-22", "category": "PDF 7", "fp_tag": "FP", "question": "Why are ensemble methods like Random Forests effective?", "options": ["They use a single deep tree", "They combine multiple weak learners", "They eliminate randomness", "They avoid training"], "correct": 1}, {"id": 108, "code": "SN7-23", "category": "PDF 7", "fp_tag": "", "question": "Which concept helps evaluate relationships between numerical features?", "options": ["Entropy", "Correlation coefficient", "Kernel trick", "Margin"], "correct": 1}, {"id": 109, "code": "SN7-24", "category": "PDF 7", "fp_tag": "", "question": "Which classifier is most sensitive to irrelevant features?", "options": ["Naive Bayes", "k-Nearest Neighbor", "Decision Tree", "SVM"], "correct": 1}, {"id": 110, "code": "SN7-25", "category": "PDF 7", "fp_tag": "", "question": "Which statement best summarizes the goal of classification algorithms?", "options": ["Discover hidden clusters", "Predict continuous values", "Assign labels to unseen data", "Optimize memory usage"], "correct": 2}, {"id": 111, "code": "SN8-1", "category": "PDF 8", "fp_tag": "FP", "question": "How do modern data mining systems differ from early expert systems such as LEXMED?", "options": ["Modern systems rely only on symbolic rules", "Early expert systems used neural networks", "Modern systems adapt models automatically from data", "Early systems processed larger datasets"], "correct": 2}, {"id": 112, "code": "SN8-2", "category": "PDF 8", "fp_tag": "FP", "question": "What is a major advantage of adaptive learning models in data mining?", "options": ["Fixed decision rules", "Ability to improve with new data", "Elimination of preprocessing", "Reduced need for evaluation"], "correct": 1}, {"id": 113, "code": "SN8-3", "category": "PDF 8", "fp_tag": "FP", "question": "Why is visualization considered crucial in data mining practice?", "options": ["It replaces machine learning algorithms", "It reduces computational complexity", "It improves human interpretability of patterns", "It guarantees higher accuracy"], "correct": 2}, {"id": 114, "code": "SN8-4", "category": "PDF 8", "fp_tag": "FP", "question": "Which modern tools exemplify the importance of visualization in data mining?", "options": ["LISP and PROLOG", "Power BI and Tableau", "Assembly and C", "MySQL and MongoDB"], "correct": 1}, {"id": 115, "code": "SN8-5", "category": "PDF 8", "fp_tag": "FP", "question": "Why is human interpretability important in data mining results?", "options": ["Machines cannot process numbers", "Decisions often require human judgment", "Interpretability reduces data size", "It speeds up training"], "correct": 1}, {"id": 116, "code": "SN8-6", "category": "PDF 8", "fp_tag": "FP", "question": "What does the integration of statistics and AI in data mining reflect?", "options": ["The decline of symbolic AI", "The interdisciplinary nature of AI", "The elimination of learning algorithms", "The dominance of probability theory"], "correct": 1}, {"id": 117, "code": "SN8-7", "category": "PDF 8", "fp_tag": "FP", "question": "Which statistical concept is commonly integrated into data mining systems?", "options": ["Sorting algorithms", "Correlation analysis", "Stack operations", "Binary encoding"], "correct": 1}, {"id": 118, "code": "SN8-8", "category": "PDF 8", "fp_tag": "FP", "question": "What challenge arises from the explosion of big data in data mining?", "options": ["Lack of models", "Limited storage", "Scalability", "Low dimensionality"], "correct": 2}, {"id": 119, "code": "SN8-9", "category": "PDF 8", "fp_tag": "FP", "question": "How has cloud computing affected data mining practices?", "options": ["It reduced dataset sizes", "It limited access to tools", "It improved scalability and accessibility", "It eliminated preprocessing"], "correct": 2}, {"id": 120, "code": "SN8-10", "category": "PDF 8", "fp_tag": "FP", "question": "Which framework is commonly used for distributed data processing?", "options": ["OpenGL", "Hadoop", "MATLAB", "Unity"], "correct": 1}, {"id": 121, "code": "SN8-11", "category": "PDF 8", "fp_tag": "FP", "question": "What is a key ethical concern in real-world data mining applications?", "options": ["Algorithm speed", "Hardware cost", "Data privacy", "Model simplicity"], "correct": 2}, {"id": 122, "code": "SN8-12", "category": "PDF 8", "fp_tag": "FP", "question": "Which issue arises when biased data is used in data mining?", "options": ["Faster convergence", "Fairer models", "Discriminatory outcomes", "Improved generalization"], "correct": 2}, {"id": 123, "code": "SN8-13", "category": "PDF 8", "fp_tag": "FP", "question": "Why is explainability important in ethical AI and data mining?", "options": ["It reduces memory usage", "It increases model complexity", "It allows understanding and accountability", "It replaces validation"], "correct": 2}, {"id": 124, "code": "SN8-14", "category": "PDF 8", "fp_tag": "FP", "question": "What type of system is KNIME primarily designed to support?", "options": ["Game AI", "Workflow-based data analytics", "Operating systems", "Compiler optimization"], "correct": 1}, {"id": 125, "code": "SN8-15", "category": "PDF 8", "fp_tag": "FP", "question": "Where was KNIME originally developed?", "options": ["Stanford University", "MIT", "University of Konstanz", "Oxford University"], "correct": 2}, {"id": 126, "code": "SN8-16", "category": "PDF 8", "fp_tag": "FP", "question": "Who maintains and develops KNIME today?", "options": ["University of Konstanz", "IBM", "KNIME AG", "Google"], "correct": 2}, {"id": 127, "code": "SN8-17", "category": "PDF 8", "fp_tag": "FP", "question": "What is the main benefit of workflow-based analytics tools like KNIME?", "options": ["Manual coding only", "Visual programming and reproducibility", "Elimination of machine learning", "Fixed model structures"], "correct": 1}, {"id": 128, "code": "SN8-18", "category": "PDF 8", "fp_tag": "", "question": "Which phase of data mining benefits most from visualization?", "options": ["Data collection only", "Model deployment only", "Pattern discovery and evaluation", "Hardware selection"], "correct": 2}, {"id": 129, "code": "SN8-19", "category": "PDF 8", "fp_tag": "FP", "question": "Why is interdisciplinary knowledge important in modern data mining?", "options": ["Data mining is purely mathematical", "Real-world problems span multiple domains", "Algorithms work independently of context", "Models do not require interpretation"], "correct": 1}, {"id": 130, "code": "SN8-20", "category": "PDF 8", "fp_tag": "", "question": "Which application domain commonly raises ethical concerns in data mining?", "options": ["Sorting algorithms", "Healthcare", "Compiler design", "Graph theory"], "correct": 1}, {"id": 131, "code": "SN8-21", "category": "PDF 8", "fp_tag": "FP", "question": "What does scalability in data mining primarily refer to?", "options": ["Accuracy improvement", "Ability to handle increasing data volume", "Reduction of noise", "Feature selection"], "correct": 1}, {"id": 132, "code": "SN8-22", "category": "PDF 8", "fp_tag": "", "question": "Which factor most contributed to the rise of data mining?", "options": ["Small datasets", "Limited storage", "Availability of big data", "Decline of statistics"], "correct": 2}, {"id": 133, "code": "SN8-23", "category": "PDF 8", "fp_tag": "FP", "question": "Why are early expert systems less flexible than modern data mining systems?", "options": ["They lacked symbolic reasoning", "They relied on fixed rule bases", "They used neural networks", "They had too much data"], "correct": 1}, {"id": 134, "code": "SN8-24", "category": "PDF 8", "fp_tag": "", "question": "Which concept ensures responsible use of data mining technologies?", "options": ["Overfitting", "Automation", "Ethical governance", "Feature scaling"], "correct": 2}, {"id": 135, "code": "SN8-25", "category": "PDF 8", "fp_tag": "", "question": "Which statement best summarizes the role of data mining today?", "options": ["It replaces human decision-making", "It extracts actionable knowledge from large datasets", "It eliminates uncertainty", "It works only in academia"], "correct": 1}, {"id": 136, "code": "SN9-1", "category": "PDF 9", "fp_tag": "FP", "question": "Which biological component receives incoming signals in a neuron?", "options": ["Axon", "Synapse", "Dendrite", "Cell nucleus"], "correct": 2}, {"id": 137, "code": "SN9-2", "category": "PDF 9", "fp_tag": "FP", "question": "What causes a biological neuron to fire?", "options": ["Random activation", "External supervision", "Accumulated potential exceeding a threshold", "Maximum synaptic weight"], "correct": 2}, {"id": 138, "code": "SN9-3", "category": "PDF 9", "fp_tag": "FP", "question": "What is the primary function of synapses in biological neurons?", "options": ["Transmitting electrical impulses directly", "Storing long-term memory", "Acting as adjustable connection points", "Generating action potentials"], "correct": 2}, {"id": 139, "code": "SN9-4", "category": "PDF 9", "fp_tag": "FP", "question": "Which neurotransmitter type is mainly responsible for excitation or inhibition between neurons?", "options": ["DNA", "Hormones", "Neurotransmitters", "Enzymes"], "correct": 2}, {"id": 140, "code": "SN9-5", "category": "PDF 9", "fp_tag": "FP", "question": "What is meant by **biological neuroplasticity**?", "options": ["Fixed neuron connections", "Ability of neurons to change connections", "Random neuron firing", "Loss of synapses over time"], "correct": 1}, {"id": 141, "code": "SN9-6", "category": "PDF 9", "fp_tag": "FP", "question": "In artificial neural networks, what does a neuron compute?", "options": ["A probability distribution", "A symbolic rule", "A weighted sum followed by an activation function", "A random output"], "correct": 2}, {"id": 142, "code": "SN9-7", "category": "PDF 9", "fp_tag": "FP", "question": "Which model is considered one of the earliest formal neuron models?", "options": ["Backpropagation neuron", "McCulloch–Pitts neuron", "Hopfield neuron", "Boltzmann neuron"], "correct": 1}, {"id": 143, "code": "SN9-8", "category": "PDF 9", "fp_tag": "FP", "question": "What is the main purpose of modeling biological neurons in AI?", "options": ["Perfect biological simulation", "Hardware optimization", "Inspiration for computational learning systems", "Replacing symbolic AI"], "correct": 2}, {"id": 144, "code": "SN9-9", "category": "PDF 9", "fp_tag": "FP", "question": "Which learning principle is captured by the Hebb rule?", "options": ["Error minimization", "Reward maximization", "Correlation-based weight strengthening", "Gradient descent"], "correct": 2}, {"id": 145, "code": "SN9-10", "category": "PDF 9", "fp_tag": "FP", "question": "The phrase *“cells that fire together wire together”* refers to:", "options": ["Backpropagation", "Hebbian learning", "Reinforcement learning", "Supervised learning"], "correct": 1}, {"id": 146, "code": "SN9-11", "category": "PDF 9", "fp_tag": "FP", "question": "What is the main function of a Hopfield network?", "options": ["Regression", "Classification", "Associative memory", "Feature extraction"], "correct": 2}, {"id": 147, "code": "SN9-12", "category": "PDF 9", "fp_tag": "FP", "question": "How is information stored in a Hopfield network?", "options": ["In explicit rules", "In neuron biases", "In synaptic weights", "In activation functions"], "correct": 2}, {"id": 148, "code": "SN9-13", "category": "PDF 9", "fp_tag": "FP", "question": "What does a stable state in a Hopfield network correspond to?", "options": ["Maximum entropy", "Random firing", "Local minimum of the energy function", "Maximum learning rate"], "correct": 2}, {"id": 149, "code": "SN9-14", "category": "PDF 9", "fp_tag": "FP", "question": "Why is energy minimization important in Hopfield networks?", "options": ["It speeds up training", "It ensures convergence to stored patterns", "It increases storage capacity infinitely", "It eliminates noise completely"], "correct": 1}, {"id": 150, "code": "SN9-15", "category": "PDF 9", "fp_tag": "FP", "question": "What happens if too many patterns are stored in a Hopfield network?", "options": ["Accuracy improves", "Memory capacity increases linearly", "Network becomes unstable", "Training becomes supervised"], "correct": 2}, {"id": 151, "code": "SN9-16", "category": "PDF 9", "fp_tag": "", "question": "Which factor mainly limits the storage capacity of Hopfield networks?", "options": ["Number of input samples", "Number of neurons", "Learning rate", "Activation function type"], "correct": 1}, {"id": 152, "code": "SN9-17", "category": "PDF 9", "fp_tag": "FP", "question": "What type of connections exist in a standard Hopfield network?", "options": ["Directed and asymmetric", "Random and dynamic", "Symmetric and fully connected", "Sparse and hierarchical"], "correct": 2}, {"id": 153, "code": "SN9-18", "category": "PDF 9", "fp_tag": "FP", "question": "Which concept links Hopfield networks to physical systems?", "options": ["Bayesian inference", "Energy landscapes", "Decision boundaries", "Kernel functions"], "correct": 1}, {"id": 154, "code": "SN9-19", "category": "PDF 9", "fp_tag": "FP", "question": "What is associative memory?", "options": ["Memory indexed by time", "Memory retrieved by exact address", "Memory retrieved from partial or noisy input", "Memory stored externally"], "correct": 2}, {"id": 155, "code": "SN9-20", "category": "PDF 9", "fp_tag": "FP", "question": "Which learning rule is typically used to store patterns in Hopfield networks?", "options": ["Gradient descent", "Binary Hebb rule", "Backpropagation", "Reinforcement learning"], "correct": 1}, {"id": 156, "code": "SN9-21", "category": "PDF 9", "fp_tag": "FP", "question": "Why are Hopfield networks not suitable for deep learning tasks?", "options": ["They require labeled data", "They lack differentiability for backpropagation", "They overfit easily", "They need large datasets"], "correct": 1}, {"id": 157, "code": "SN9-22", "category": "PDF 9", "fp_tag": "", "question": "Which modern models are conceptually related to Hopfield networks?", "options": ["Decision trees", "Support Vector Machines", "Energy-based models", "Naive Bayes classifiers"], "correct": 2}, {"id": 158, "code": "SN9-23", "category": "PDF 9", "fp_tag": "FP", "question": "What role did Hopfield networks play in AI history?", "options": ["They replaced symbolic reasoning", "They inspired modern neural architectures", "They solved general intelligence", "They eliminated supervised learning"], "correct": 1}, {"id": 159, "code": "SN9-24", "category": "PDF 9", "fp_tag": "", "question": "Which property ensures convergence in Hopfield networks?", "options": ["Random initialization", "Asymmetric weights", "Energy function minimization", "High learning rate"], "correct": 2}, {"id": 160, "code": "SN9-25", "category": "PDF 9", "fp_tag": "FP", "question": "What distinguishes biological neurons from artificial neurons most clearly?", "options": ["Use of logic", "Exact mathematical modeling", "Massive parallelism and adaptability", "Digital computation"], "correct": 2}, {"id": 161, "code": "SN9-26", "category": "PDF 9", "fp_tag": "", "question": "Which component is abstracted away in artificial neuron models?", "options": ["Input signals", "Synaptic weights", "Detailed biochemical processes", "Activation functions"], "correct": 2}, {"id": 162, "code": "SN9-27", "category": "PDF 9", "fp_tag": "FP", "question": "Why are artificial neurons considered simplified models?", "options": ["They lack inputs", "They ignore most biological complexity", "They do not learn", "They are symbolic"], "correct": 1}, {"id": 163, "code": "SN9-28", "category": "PDF 9", "fp_tag": "", "question": "Which statement about Hebbian learning is correct?", "options": ["It minimizes global error", "It is supervised", "It strengthens correlated activations", "It requires labeled outputs"], "correct": 2}, {"id": 164, "code": "SN9-29", "category": "PDF 9", "fp_tag": "", "question": "Which learning paradigm best describes Hopfield networks?", "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Evolutionary learning"], "correct": 1}, {"id": 165, "code": "SN9-30", "category": "PDF 9", "fp_tag": "", "question": "Which limitation most strongly restricts Hopfield networks in practice?", "options": ["High training cost", "Limited storage capacity", "Requirement of labels", "Kernel selection"], "correct": 1}, {"id": 166, "code": "SN10-1", "category": "PDF 10", "fp_tag": "FP", "question": "What is the main objective of the backpropagation algorithm?", "options": ["To randomly initialize network weights", "To propagate inputs forward through the network", "To minimize the error function by adjusting weights", "To eliminate hidden layers"], "correct": 2}, {"id": 167, "code": "SN10-2", "category": "PDF 10", "fp_tag": "FP", "question": "Why must activation functions be differentiable in backpropagation?", "options": ["To speed up computation", "To apply the chain rule of calculus", "To reduce overfitting", "To simplify network architecture"], "correct": 1}, {"id": 168, "code": "SN10-3", "category": "PDF 10", "fp_tag": "FP", "question": "Which limitation of the perceptron model led to the development of multi-layer neural networks?", "options": ["Inability to process large datasets", "Inability to learn non-linearly separable functions", "High computational cost", "Sensitivity to noise"], "correct": 1}, {"id": 169, "code": "SN10-4", "category": "PDF 10", "fp_tag": "FP", "question": "Which problem is classically used to demonstrate the failure of single-layer perceptrons?", "options": ["AND", "OR", "XOR", "NAND"], "correct": 2}, {"id": 170, "code": "SN10-5", "category": "PDF 10", "fp_tag": "FP", "question": "Backpropagation is primarily applied to which type of neural network?", "options": ["Recurrent neural networks", "Feedforward neural networks", "Bayesian networks", "Hopfield networks"], "correct": 1}, {"id": 171, "code": "SN10-6", "category": "PDF 10", "fp_tag": "FP", "question": "What role does the error (loss) function play in backpropagation?", "options": ["It defines network topology", "It measures the difference between predicted and target outputs", "It initializes weights", "It selects input features"], "correct": 1}, {"id": 172, "code": "SN10-7", "category": "PDF 10", "fp_tag": "FP", "question": "Which loss function is commonly used in classical backpropagation examples in the slides?", "options": ["Cross-entropy loss", "Hinge loss", "Sum of squared errors", "KL-divergence"], "correct": 2}, {"id": 173, "code": "SN10-8", "category": "PDF 10", "fp_tag": "FP", "question": "What does gradient descent attempt to optimize during training?", "options": ["Number of neurons", "Network depth", "Error function", "Input dimensionality"], "correct": 2}, {"id": 174, "code": "SN10-9", "category": "PDF 10", "fp_tag": "", "question": "What is the most likely consequence of choosing a very large learning rate?", "options": ["Very slow convergence", "No weight updates", "Oscillation or divergence during training", "Guaranteed global minimum"], "correct": 2}, {"id": 175, "code": "SN10-10", "category": "PDF 10", "fp_tag": "FP", "question": "What happens if the learning rate is chosen too small?", "options": ["Training becomes unstable", "Training converges very slowly", "The model overfits immediately", "Gradients explode"], "correct": 1}, {"id": 176, "code": "SN10-11", "category": "PDF 10", "fp_tag": "FP", "question": "Which mathematical principle enables error propagation from output to hidden layers?", "options": ["Linear algebra", "Probability theory", "Chain rule", "Bayesian inference"], "correct": 2}, {"id": 177, "code": "SN10-12", "category": "PDF 10", "fp_tag": "", "question": "Which layer directly computes the output error in backpropagation?", "options": ["Input layer", "First hidden layer", "Output layer", "All layers simultaneously"], "correct": 2}, {"id": 178, "code": "SN10-13", "category": "PDF 10", "fp_tag": "", "question": "In backpropagation, how are hidden layer errors computed?", "options": ["Randomly", "From the output layer errors", "From the input data", "From the bias values"], "correct": 1}, {"id": 179, "code": "SN10-14", "category": "PDF 10", "fp_tag": "FP", "question": "Why are non-differentiable activation functions problematic for backpropagation?", "options": ["They increase memory usage", "Gradients cannot be computed", "They slow down inference", "They require more data"], "correct": 1}, {"id": 180, "code": "SN10-15", "category": "PDF 10", "fp_tag": "", "question": "Which activation function was historically popular but can cause vanishing gradients?", "options": ["ReLU", "Linear", "Sigmoid", "Softmax"], "correct": 2}, {"id": 181, "code": "SN10-16", "category": "PDF 10", "fp_tag": "", "question": "What does the vanishing gradient problem mainly affect?", "options": ["Input normalization", "Deep neural networks", "Linear classifiers", "Output layer only"], "correct": 1}, {"id": 182, "code": "SN10-17", "category": "PDF 10", "fp_tag": "FP", "question": "Why is differentiability essential for gradient-based learning?", "options": ["It reduces noise", "It allows analytical gradient computation", "It simplifies datasets", "It guarantees optimality"], "correct": 1}, {"id": 183, "code": "SN10-18", "category": "PDF 10", "fp_tag": "", "question": "Which component controls the step size of weight updates?", "options": ["Bias", "Momentum", "Learning rate", "Activation function"], "correct": 2}, {"id": 184, "code": "SN10-19", "category": "PDF 10", "fp_tag": "FP", "question": "What is the main advantage of multi-layer neural networks over perceptrons?", "options": ["Faster training", "Lower memory usage", "Ability to model nonlinear decision boundaries", "Simpler mathematical formulation"], "correct": 2}, {"id": 185, "code": "SN10-20", "category": "PDF 10", "fp_tag": "", "question": "Which optimization problem does neural network training correspond to?", "options": ["Sorting", "Search", "Function minimization", "Clustering"], "correct": 2}, {"id": 186, "code": "SN10-21", "category": "PDF 10", "fp_tag": "FP", "question": "Which classifier aims to maximize the margin between classes?", "options": ["Perceptron", "Naive Bayes", "Support Vector Machine", "k-NN"], "correct": 2}, {"id": 187, "code": "SN10-22", "category": "PDF 10", "fp_tag": "FP", "question": "What is the core idea behind the kernel trick in SVMs?", "options": ["Reducing dimensionality", "Mapping data to higher-dimensional space", "Eliminating support vectors", "Avoiding optimization"], "correct": 1}, {"id": 188, "code": "SN10-23", "category": "PDF 10", "fp_tag": "FP", "question": "Why does maximizing the margin improve generalization in SVMs?", "options": ["It reduces training time", "It increases model complexity", "It reduces sensitivity to noise", "It eliminates outliers"], "correct": 2}, {"id": 189, "code": "SN10-24", "category": "PDF 10", "fp_tag": "", "question": "Which kernel is commonly used for non-linear classification?", "options": ["Linear", "Polynomial", "Radial Basis Function (RBF)", "Identity"], "correct": 2}, {"id": 190, "code": "SN10-25", "category": "PDF 10", "fp_tag": "", "question": "What do support vectors represent?", "options": ["All training samples", "Misclassified samples", "Boundary-defining samples", "Random points"], "correct": 2}, {"id": 191, "code": "SN10-26", "category": "PDF 10", "fp_tag": "", "question": "Which statement best describes backpropagation?", "options": ["A rule-based inference method", "A supervised learning algorithm", "An unsupervised clustering method", "A symbolic reasoning system"], "correct": 1}, {"id": 192, "code": "SN10-27", "category": "PDF 10", "fp_tag": "FP", "question": "Why is backpropagation considered a breakthrough in neural network history?", "options": ["It eliminated the need for data", "It enabled training of multi-layer networks", "It replaced symbolic AI", "It guarantees global optimality"], "correct": 1}, {"id": 193, "code": "SN10-28", "category": "PDF 10", "fp_tag": "", "question": "Which factor most strongly affects convergence speed?", "options": ["Number of classes", "Learning rate", "Dataset size", "Output labels"], "correct": 1}, {"id": 194, "code": "SN10-29", "category": "PDF 10", "fp_tag": "", "question": "What does a local minimum represent in training?", "options": ["Best possible solution", "A point where gradients are zero but not global optimum", "Model failure", "Overfitting state"], "correct": 1}, {"id": 195, "code": "SN10-30", "category": "PDF 10", "fp_tag": "", "question": "Why can training get stuck in local minima?", "options": ["Discrete weights", "Non-convex error surfaces", "Linear activation functions", "Small datasets"], "correct": 1}, {"id": 196, "code": "SN10-31", "category": "PDF 10", "fp_tag": "", "question": "Which method helps reduce oscillations during gradient descent?", "options": ["Feature scaling", "Momentum", "Dropout", "Regularization"], "correct": 1}, {"id": 197, "code": "SN10-32", "category": "PDF 10", "fp_tag": "", "question": "What is the role of bias terms in neural networks?", "options": ["Increase input size", "Shift activation thresholds", "Normalize gradients", "Reduce overfitting"], "correct": 1}, {"id": 198, "code": "SN10-33", "category": "PDF 10", "fp_tag": "", "question": "Which statement about SVMs is correct?", "options": ["They minimize squared error", "They maximize classification margin", "They require differentiable activation functions", "They are unsupervised"], "correct": 1}, {"id": 199, "code": "SN10-34", "category": "PDF 10", "fp_tag": "", "question": "Compared to perceptrons, SVMs primarily differ in:", "options": ["Use of kernels and margins", "Requirement of labeled data", "Binary output", "Linear decision boundaries only"], "correct": 0}, {"id": 200, "code": "SN10-35", "category": "PDF 10", "fp_tag": "", "question": "Which learning paradigm do both backpropagation and SVMs belong to?", "options": ["Unsupervised learning", "Reinforcement learning", "Supervised learning", "Evolutionary learning"], "correct": 2}]
+[
+  {
+    "id": 1,
+    "code": "SN1-1",
+    "category": "PDF 1",
+    "fp_tag": "FP",
+    "question": "Why do definitions of Artificial Intelligence differ among researchers?",
+    "options": [
+      "AI is already fully understood",
+      "Intelligence has multiple dimensions and interpretations",
+      "There is a single formal definition",
+      "AI systems are identical"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 2,
+    "code": "SN1-2",
+    "category": "PDF 1",
+    "fp_tag": "FP",
+    "question": "Who introduced the term “Artificial Intelligence”?",
+    "options": [
+      "Alan Turing",
+      "John McCarthy",
+      "Marvin Minsky",
+      "Claude Shannon"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "code": "SN1-3",
+    "category": "PDF 1",
+    "fp_tag": "FP",
+    "question": "What is the primary goal of Artificial Intelligence according to John McCarthy?",
+    "options": [
+      "To simulate the human brain exactly",
+      "To replace human intelligence",
+      "To build machines that behave intelligently",
+      "To eliminate uncertainty"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 4,
+    "code": "SN1-4",
+    "category": "PDF 1",
+    "fp_tag": "FP",
+    "question": "What does the Turing Test evaluate?",
+    "options": [
+      "Computational speed",
+      "Hardware efficiency",
+      "Human-like intelligent behavior",
+      "Learning accuracy"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 5,
+    "code": "SN1-5",
+    "category": "PDF 1",
+    "fp_tag": "",
+    "question": "Which component is fundamental to the concept of intelligent agents?",
+    "options": [
+      "Randomness",
+      "Emotion",
+      "Perception and action",
+      "Fixed rules only"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 6,
+    "code": "SN2-1",
+    "category": "PDF 2",
+    "fp_tag": "FP",
+    "question": "What is the main limitation of propositional logic compared to predicate logic?",
+    "options": [
+      "It cannot represent truth values",
+      "It lacks variables and quantifiers",
+      "It cannot use logical operators",
+      "It is undecidable"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 7,
+    "code": "SN2-2",
+    "category": "PDF 2",
+    "fp_tag": "FP",
+    "question": "Which symbol represents universal quantification?",
+    "options": [
+      "∃",
+      "→",
+      "∀",
+      "∧"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 8,
+    "code": "SN2-3",
+    "category": "PDF 2",
+    "fp_tag": "FP",
+    "question": "What does the existential quantifier (∃) express?",
+    "options": [
+      "All elements satisfy a property",
+      "No elements satisfy a property",
+      "At least one element satisfies a property",
+      "Exactly one element satisfies a property"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 9,
+    "code": "SN2-4",
+    "category": "PDF 2",
+    "fp_tag": "FP",
+    "question": "What is the role of semantics in logic?",
+    "options": [
+      "Define valid syntax",
+      "Assign meaning to formulas",
+      "Generate inference rules",
+      "Optimize proofs"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "code": "SN2-5",
+    "category": "PDF 2",
+    "fp_tag": "FP",
+    "question": "What does it mean for a formula to be **satisfiable**?",
+    "options": [
+      "It is syntactically correct",
+      "It is provable",
+      "It is true under some interpretation",
+      "It is always false"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 11,
+    "code": "SN2-6",
+    "category": "PDF 2",
+    "fp_tag": "FP",
+    "question": "Which logical method is commonly used for automated theorem proving?",
+    "options": [
+      "Gradient descent",
+      "Resolution",
+      "Hebbian learning",
+      "Backpropagation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 12,
+    "code": "SN2-7",
+    "category": "PDF 2",
+    "fp_tag": "",
+    "question": "Why does the use of quantifiers increase reasoning complexity?",
+    "options": [
+      "They remove variables",
+      "They create infinite domains",
+      "They eliminate inference rules",
+      "They simplify models"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 13,
+    "code": "SN2-8",
+    "category": "PDF 2",
+    "fp_tag": "",
+    "question": "Which logic is fully decidable?",
+    "options": [
+      "First-order predicate logic",
+      "Higher-order logic",
+      "Propositional logic",
+      "Default logic"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 14,
+    "code": "SN2-9",
+    "category": "PDF 2",
+    "fp_tag": "",
+    "question": "What does a **model** represent in logic?",
+    "options": [
+      "A proof procedure",
+      "A truth assignment making formulas true",
+      "A set of inference rules",
+      "A database query"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 15,
+    "code": "SN2-10",
+    "category": "PDF 2",
+    "fp_tag": "",
+    "question": "Why is predicate logic more suitable for real-world knowledge representation?",
+    "options": [
+      "It avoids uncertainty",
+      "It supports relations and quantification",
+      "It is computationally simpler",
+      "It eliminates ambiguity"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 16,
+    "code": "SN3-1",
+    "category": "PDF 3",
+    "fp_tag": "FP",
+    "question": "What does it mean for first-order logic to be **semi-decidable**?",
+    "options": [
+      "Every formula can be proven true or false",
+      "All inference procedures terminate",
+      "True statements can be proven, but termination is not guaranteed",
+      "False statements are always detected"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 17,
+    "code": "SN3-2",
+    "category": "PDF 3",
+    "fp_tag": "FP",
+    "question": "What is the **search space problem** in logic-based AI systems?",
+    "options": [
+      "Lack of inference rules",
+      "Exponential growth of possible inference paths",
+      "Incomplete knowledge bases",
+      "Limited memory of machines"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 18,
+    "code": "SN3-3",
+    "category": "PDF 3",
+    "fp_tag": "FP",
+    "question": "Why does automated reasoning become impractical in large search spaces?",
+    "options": [
+      "Rules become incorrect",
+      "Proofs require infinite memory",
+      "The number of inference steps grows explosively",
+      "Logic loses consistency"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 19,
+    "code": "SN3-4",
+    "category": "PDF 3",
+    "fp_tag": "FP",
+    "question": "What does Gödel’s incompleteness theorem imply for logical systems?",
+    "options": [
+      "All true statements are provable",
+      "All systems are inconsistent",
+      "Some true statements cannot be proven within the system",
+      "Logic is obsolete"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 20,
+    "code": "SN3-5",
+    "category": "PDF 3",
+    "fp_tag": "FP",
+    "question": "What key limitation of classical logic is illustrated by the Flying Penguin problem?",
+    "options": [
+      "Lack of expressiveness",
+      "Inability to handle exceptions",
+      "Lack of quantifiers",
+      "Computational inefficiency"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 21,
+    "code": "SN3-6",
+    "category": "PDF 3",
+    "fp_tag": "FP",
+    "question": "What type of reasoning allows exceptions to default rules?",
+    "options": [
+      "Deductive reasoning",
+      "Probabilistic reasoning",
+      "Non-monotonic reasoning",
+      "Symbolic reasoning"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 22,
+    "code": "SN3-7",
+    "category": "PDF 3",
+    "fp_tag": "FP",
+    "question": "In Prolog, what mechanism allows the system to explore alternative solutions?",
+    "options": [
+      "Forward chaining",
+      "Resolution only",
+      "Backtracking",
+      "Gradient descent"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 23,
+    "code": "SN3-8",
+    "category": "PDF 3",
+    "fp_tag": "FP",
+    "question": "What is the role of **unification** in Prolog?",
+    "options": [
+      "Assign truth values",
+      "Match terms and variables",
+      "Optimize search trees",
+      "Control recursion depth"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 24,
+    "code": "SN3-9",
+    "category": "PDF 3",
+    "fp_tag": "",
+    "question": "Why can Prolog programs fail to terminate?",
+    "options": [
+      "Lack of inference rules",
+      "Infinite recursion in the search space",
+      "Incorrect syntax",
+      "Missing facts"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 25,
+    "code": "SN3-10",
+    "category": "PDF 3",
+    "fp_tag": "",
+    "question": "Which statement best summarizes the limitations of pure logic in AI?",
+    "options": [
+      "Logic is too expressive",
+      "Logic cannot represent facts",
+      "Logic struggles with uncertainty and scalability",
+      "Logic replaces learning"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 26,
+    "code": "SN4-1",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "What is the main cause of the search space explosion problem in AI?",
+    "options": [
+      "Low branching factor",
+      "High branching factor and large depth",
+      "Deterministic environments",
+      "Limited state representations"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 27,
+    "code": "SN4-2",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "What does the term **search space** refer to?",
+    "options": [
+      "The set of all input values",
+      "The collection of all possible states to be explored",
+      "Only the goal states",
+      "The heuristic function"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 28,
+    "code": "SN4-3",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "Why is exhaustive search usually infeasible for large problems?",
+    "options": [
+      "It requires symbolic reasoning",
+      "The number of possible states grows exponentially",
+      "It lacks optimality",
+      "It cannot find solutions"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 29,
+    "code": "SN4-4",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "Which search strategy explores all nodes at a given depth before going deeper?",
+    "options": [
+      "Depth-First Search (DFS)",
+      "Breadth-First Search (BFS)",
+      "Heuristic Search",
+      "A* Search"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 30,
+    "code": "SN4-5",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "Which property is guaranteed by Breadth-First Search if all step costs are equal?",
+    "options": [
+      "Minimum memory usage",
+      "Optimality",
+      "Heuristic efficiency",
+      "Incompleteness"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 31,
+    "code": "SN4-6",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "What is a major drawback of Breadth-First Search?",
+    "options": [
+      "It is incomplete",
+      "It may get stuck in loops",
+      "It requires large memory",
+      "It is not systematic"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 32,
+    "code": "SN4-7",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "Which search strategy explores as deep as possible before backtracking?",
+    "options": [
+      "BFS",
+      "DFS",
+      "A*",
+      "Greedy search"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 33,
+    "code": "SN4-8",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "What is a key advantage of Depth-First Search?",
+    "options": [
+      "Optimality",
+      "Completeness",
+      "Low memory usage",
+      "Use of heuristics"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 34,
+    "code": "SN4-9",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "Why can Depth-First Search fail to find a solution?",
+    "options": [
+      "It uses too much memory",
+      "It may follow infinite paths",
+      "It requires heuristics",
+      "It is probabilistic"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 35,
+    "code": "SN4-10",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "What is the main purpose of heuristic search?",
+    "options": [
+      "To guarantee optimality without cost",
+      "To reduce the effective search space",
+      "To eliminate uncertainty",
+      "To replace state representation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 36,
+    "code": "SN4-11",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "Which algorithm combines path cost and heuristic estimation?",
+    "options": [
+      "BFS",
+      "DFS",
+      "A* search",
+      "Minimax"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 37,
+    "code": "SN4-12",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "When is A* search guaranteed to find an optimal solution?",
+    "options": [
+      "When the heuristic is random",
+      "When the heuristic is admissible",
+      "When the branching factor is small",
+      "When costs are ignored"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 38,
+    "code": "SN4-13",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "Which type of problem does the **minimax algorithm** address?",
+    "options": [
+      "Single-agent optimization",
+      "Probabilistic reasoning",
+      "Two-player adversarial games",
+      "Unsupervised clustering"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 39,
+    "code": "SN4-14",
+    "category": "PDF 4",
+    "fp_tag": "FP",
+    "question": "What is the purpose of alpha–beta pruning?",
+    "options": [
+      "Increase search depth",
+      "Improve heuristic accuracy",
+      "Reduce the number of evaluated nodes",
+      "Guarantee faster convergence"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 40,
+    "code": "SN4-15",
+    "category": "PDF 4",
+    "fp_tag": "",
+    "question": "Which statement best explains why humans outperform brute-force search in complex problems?",
+    "options": [
+      "Humans evaluate all possibilities",
+      "Humans use heuristics and intuition",
+      "Humans avoid search entirely",
+      "Humans rely on randomness"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 41,
+    "code": "SN5-1",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "Why is classical logic insufficient for reasoning in real-world situations?",
+    "options": [
+      "It is computationally inefficient",
+      "It assumes binary true/false values",
+      "It cannot represent symbols",
+      "It requires complete datasets"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 42,
+    "code": "SN5-2",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What main issue is illustrated by the Flying Penguin (Tweety) problem?",
+    "options": [
+      "Lack of inference rules",
+      "Inability to represent learning",
+      "Failure of monotonic reasoning with exceptions",
+      "Incorrect probability estimates"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 43,
+    "code": "SN5-3",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What does monotonic reasoning mean in classical logic?",
+    "options": [
+      "Conclusions become more accurate with new facts",
+      "Conclusions never change when new facts are added",
+      "Conclusions are probabilistic",
+      "Conclusions depend on thresholds"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 44,
+    "code": "SN5-4",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "Why does learning that “Tweety is a penguin” cause a problem in classical logic?",
+    "options": [
+      "Penguins are mammals",
+      "It contradicts a default rule",
+      "It removes all previous knowledge",
+      "It creates cyclic reasoning"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 45,
+    "code": "SN5-5",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "Which type of reasoning allows conclusions to be withdrawn when new information appears?",
+    "options": [
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Non-monotonic reasoning",
+      "Symbolic reasoning"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 46,
+    "code": "SN5-6",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What is the core idea behind using probabilities in AI reasoning?",
+    "options": [
+      "To eliminate uncertainty",
+      "To assign degrees of belief instead of absolute truth",
+      "To speed up inference",
+      "To replace logic completely"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 47,
+    "code": "SN5-7",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What does conditional probability P(A | B) represent?",
+    "options": [
+      "Probability of B given A",
+      "Joint probability of A and B",
+      "Probability of A given B",
+      "Marginal probability of A"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 48,
+    "code": "SN5-8",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "Which theorem formally relates conditional and prior probabilities?",
+    "options": [
+      "De Morgan’s Law",
+      "Bayes’ Theorem",
+      "Law of Large Numbers",
+      "Resolution Theorem"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 49,
+    "code": "SN5-9",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "In Bayesian reasoning, what does the **prior probability** represent?",
+    "options": [
+      "Updated belief after evidence",
+      "Probability of evidence",
+      "Initial belief before observing evidence",
+      "Error probability"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 50,
+    "code": "SN5-10",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What does the **posterior probability** represent?",
+    "options": [
+      "Initial belief",
+      "Probability before evidence",
+      "Updated belief after evidence",
+      "Joint probability"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 51,
+    "code": "SN5-11",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "Why is Bayesian updating important in AI systems?",
+    "options": [
+      "It removes noise",
+      "It allows beliefs to change with new evidence",
+      "It guarantees correctness",
+      "It simplifies logic rules"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 52,
+    "code": "SN5-12",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "Which early expert system used certainty factors instead of full probability theory?",
+    "options": [
+      "LEXMED",
+      "MYCIN",
+      "PROLOG",
+      "SHRDLU"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 53,
+    "code": "SN5-13",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "Why were certainty factors used in early expert systems?",
+    "options": [
+      "Probability theory was unknown",
+      "They were easier to implement than full probabilistic models",
+      "They guaranteed optimal decisions",
+      "They eliminated uncertainty"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 54,
+    "code": "SN5-14",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What is a key limitation of certainty factors compared to Bayesian probability?",
+    "options": [
+      "They are computationally expensive",
+      "They lack a solid mathematical foundation",
+      "They require too much data",
+      "They cannot handle rules"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 55,
+    "code": "SN5-15",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What structure defines a Bayesian network?",
+    "options": [
+      "Undirected cyclic graph",
+      "Directed acyclic graph with probabilities",
+      "Decision tree with rules",
+      "Fully connected neural network"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 56,
+    "code": "SN5-16",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "In a Bayesian network, what do nodes represent?",
+    "options": [
+      "Logical rules",
+      "Random variables",
+      "Class labels only",
+      "Feature vectors"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 57,
+    "code": "SN5-17",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What do edges in a Bayesian network indicate?",
+    "options": [
+      "Temporal order",
+      "Causal certainty",
+      "Direct probabilistic dependencies",
+      "Logical implication only"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 58,
+    "code": "SN5-18",
+    "category": "PDF 5",
+    "fp_tag": "FP",
+    "question": "What is the role of Conditional Probability Tables (CPTs)?",
+    "options": [
+      "Store training data",
+      "Define P(Node | Parents)",
+      "Perform inference automatically",
+      "Encode logical rules"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 59,
+    "code": "SN5-19",
+    "category": "PDF 5",
+    "fp_tag": "",
+    "question": "Which property allows Bayesian networks to simplify complex probability calculations?",
+    "options": [
+      "Complete connectivity",
+      "Conditional independence",
+      "Logical consistency",
+      "Linear separability"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 60,
+    "code": "SN5-20",
+    "category": "PDF 5",
+    "fp_tag": "",
+    "question": "Which real-world application commonly uses Bayesian networks?",
+    "options": [
+      "Sorting algorithms",
+      "Medical diagnosis",
+      "Compiler optimization",
+      "Text rendering"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 61,
+    "code": "SN6-1",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "What is the main difference between traditional programming and machine learning?",
+    "options": [
+      "Machine learning uses no algorithms",
+      "Traditional programming learns from data",
+      "Machine learning derives behavior from data instead of explicit rules",
+      "Traditional programming is probabilistic"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 62,
+    "code": "SN6-2",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "In machine learning, what does the term **generalization** refer to?",
+    "options": [
+      "Perfect performance on training data",
+      "Ability to perform well on unseen data",
+      "Increasing model complexity",
+      "Memorizing examples"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 63,
+    "code": "SN6-3",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "What problem occurs when a model fits training data too closely?",
+    "options": [
+      "Generalization",
+      "Underfitting",
+      "Overfitting",
+      "Feature selection"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 64,
+    "code": "SN6-4",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Why is overfitting undesirable in machine learning?",
+    "options": [
+      "It increases training speed",
+      "It reduces performance on new data",
+      "It simplifies the model",
+      "It guarantees accuracy"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 65,
+    "code": "SN6-5",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Which type of learning uses labeled training data?",
+    "options": [
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Supervised learning",
+      "Evolutionary learning"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 66,
+    "code": "SN6-6",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Which type of learning discovers patterns without labeled outputs?",
+    "options": [
+      "Supervised learning",
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Transfer learning"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 67,
+    "code": "SN6-7",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "In Ertel’s apple classification example, what is the learning goal?",
+    "options": [
+      "Predict apple prices",
+      "Separate apples into predefined classes",
+      "Detect outliers only",
+      "Sort apples by size"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 68,
+    "code": "SN6-8",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "What does a **learning agent** formally represent?",
+    "options": [
+      "A hard-coded decision system",
+      "A function mapping features to outputs",
+      "A symbolic reasoning engine",
+      "A database query"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 69,
+    "code": "SN6-9",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Why must a learning agent be evaluated on test data?",
+    "options": [
+      "To increase training size",
+      "To verify generalization ability",
+      "To reduce features",
+      "To remove noise"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 70,
+    "code": "SN6-10",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Which component is essential for training a supervised learning agent?",
+    "options": [
+      "Unlabeled data",
+      "Reward signals only",
+      "Labeled examples",
+      "Random weights"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 71,
+    "code": "SN6-11",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "What is the main purpose of **feature selection**?",
+    "options": [
+      "Increase dataset size",
+      "Improve accuracy and efficiency",
+      "Remove labels",
+      "Increase model depth"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 72,
+    "code": "SN6-12",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Which phrase summarizes a common issue in data analysis?",
+    "options": [
+      "“More data, less noise”",
+      "“Garbage in, garbage out”",
+      "“Accuracy beats simplicity”",
+      "“Features are optional”"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 73,
+    "code": "SN6-13",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "What is the first step in the data mining process?",
+    "options": [
+      "Pattern evaluation",
+      "Feature selection",
+      "Data collection",
+      "Model deployment"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 74,
+    "code": "SN6-14",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Which step transforms raw data into a suitable format for learning?",
+    "options": [
+      "Evaluation",
+      "Data preprocessing",
+      "Classification",
+      "Visualization"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 75,
+    "code": "SN6-15",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "What is the output of the data mining process?",
+    "options": [
+      "Raw data",
+      "Hardware configuration",
+      "Patterns or knowledge",
+      "Feature vectors only"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 76,
+    "code": "SN6-16",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Why is preprocessing important before learning?",
+    "options": [
+      "It increases randomness",
+      "It removes the need for training",
+      "It improves data quality",
+      "It eliminates uncertainty"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 77,
+    "code": "SN6-17",
+    "category": "PDF 6",
+    "fp_tag": "",
+    "question": "Which step evaluates the usefulness of discovered patterns?",
+    "options": [
+      "Data collection",
+      "Feature extraction",
+      "Evaluation",
+      "Transformation"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 78,
+    "code": "SN6-18",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "What does the term **training phase** refer to?",
+    "options": [
+      "Deploying the model",
+      "Learning from labeled or unlabeled data",
+      "Testing generalization only",
+      "Feature removal"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 79,
+    "code": "SN6-19",
+    "category": "PDF 6",
+    "fp_tag": "",
+    "question": "Which factor most strongly influences a model’s ability to generalize?",
+    "options": [
+      "Dataset size and diversity",
+      "Hardware speed",
+      "Programming language",
+      "Output format"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 80,
+    "code": "SN6-20",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Why is testing on unseen data critical?",
+    "options": [
+      "To increase overfitting",
+      "To validate learning performance",
+      "To reduce training cost",
+      "To optimize hardware"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 81,
+    "code": "SN6-21",
+    "category": "PDF 6",
+    "fp_tag": "",
+    "question": "Which learning paradigm uses reward signals rather than labels?",
+    "options": [
+      "Supervised learning",
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Statistical learning"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 82,
+    "code": "SN6-22",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Which task best represents a classification problem?",
+    "options": [
+      "Predicting temperature",
+      "Grouping similar documents",
+      "Assigning spam or non-spam labels",
+      "Reducing dimensionality"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 83,
+    "code": "SN6-23",
+    "category": "PDF 6",
+    "fp_tag": "",
+    "question": "Which task best represents a clustering problem?",
+    "options": [
+      "Assigning known labels",
+      "Predicting continuous outputs",
+      "Discovering groups without labels",
+      "Maximizing margins"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 84,
+    "code": "SN6-24",
+    "category": "PDF 6",
+    "fp_tag": "FP",
+    "question": "Why is machine learning preferred over traditional programming in complex tasks?",
+    "options": [
+      "It requires no data",
+      "Explicit rules are difficult to define",
+      "It avoids computation",
+      "It guarantees correctness"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 85,
+    "code": "SN6-25",
+    "category": "PDF 6",
+    "fp_tag": "",
+    "question": "Which statement best summarizes machine learning?",
+    "options": [
+      "Rule-based automation",
+      "Manual decision-making",
+      "Learning patterns from data",
+      "Symbolic inference only"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 86,
+    "code": "SN7-1",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "What is the fundamental assumption of the Naive Bayes classifier?",
+    "options": [
+      "Features are linearly separable",
+      "Features are conditionally independent given the class",
+      "Classes have equal prior probabilities",
+      "Training data is noise-free"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 87,
+    "code": "SN7-2",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Why can Naive Bayes still perform well even when the independence assumption is violated?",
+    "options": [
+      "It uses deep architectures",
+      "Errors often cancel out in probability estimation",
+      "It ignores irrelevant features automatically",
+      "It relies on rule-based inference"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 88,
+    "code": "SN7-3",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Which probability does Naive Bayes compute to perform classification?",
+    "options": [
+      "P(Features)",
+      "P(Class | Features)",
+      "P(Features | Features)",
+      "P(Class | Class)"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 89,
+    "code": "SN7-4",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Which theorem provides the mathematical foundation for Naive Bayes?",
+    "options": [
+      "Central Limit Theorem",
+      "Bayes’ Theorem",
+      "Law of Large Numbers",
+      "Chain Rule of Calculus"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 90,
+    "code": "SN7-5",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "What is a key limitation of the perceptron model?",
+    "options": [
+      "It requires too much memory",
+      "It can only learn linearly separable patterns",
+      "It cannot handle numerical data",
+      "It is unsupervised"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 91,
+    "code": "SN7-6",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "How do multi-layer neural networks overcome the perceptron’s limitation?",
+    "options": [
+      "By using symbolic rules",
+      "By introducing hidden layers",
+      "By reducing input features",
+      "By removing activation functions"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 92,
+    "code": "SN7-7",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "What type of learning problem does a decision tree primarily solve?",
+    "options": [
+      "Unsupervised clustering",
+      "Reinforcement learning",
+      "Supervised classification",
+      "Sequence prediction"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 93,
+    "code": "SN7-8",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Which criterion is commonly used to split nodes in decision tree learning?",
+    "options": [
+      "Euclidean distance",
+      "Information gain",
+      "Learning rate",
+      "Margin size"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 94,
+    "code": "SN7-9",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "What is a major advantage of decision trees?",
+    "options": [
+      "They require large datasets",
+      "They are easy to interpret",
+      "They are always optimal",
+      "They avoid overfitting automatically"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 95,
+    "code": "SN7-10",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Which problem do decision trees commonly suffer from?",
+    "options": [
+      "Underfitting only",
+      "Overfitting",
+      "Lack of interpretability",
+      "Requirement of kernels"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 96,
+    "code": "SN7-11",
+    "category": "PDF 7",
+    "fp_tag": "",
+    "question": "What technique is commonly used to reduce overfitting in decision trees?",
+    "options": [
+      "Increasing depth",
+      "Pruning",
+      "Increasing learning rate",
+      "Removing labels"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 97,
+    "code": "SN7-12",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "What does correlation analysis help identify in datasets?",
+    "options": [
+      "Causal relationships only",
+      "Feature relationships and dependencies",
+      "Optimal classifiers",
+      "Network architectures"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 98,
+    "code": "SN7-13",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Why is feature selection important in machine learning?",
+    "options": [
+      "It increases dataset size",
+      "It improves model accuracy and efficiency",
+      "It removes the need for training",
+      "It guarantees generalization"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 99,
+    "code": "SN7-14",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Which method classifies a data point based on similarity to stored examples?",
+    "options": [
+      "Decision trees",
+      "Naive Bayes",
+      "Nearest Neighbor",
+      "Perceptron"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 100,
+    "code": "SN7-15",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "What is a key drawback of the k-Nearest Neighbor method?",
+    "options": [
+      "It requires model training",
+      "It has high computation cost at prediction time",
+      "It assumes feature independence",
+      "It cannot handle noise"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 101,
+    "code": "SN7-16",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Which distance metric is commonly used in nearest neighbor methods?",
+    "options": [
+      "Manhattan distance",
+      "Euclidean distance",
+      "Hamming distance",
+      "All of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 102,
+    "code": "SN7-17",
+    "category": "PDF 7",
+    "fp_tag": "",
+    "question": "What happens when k is chosen too small in k-NN?",
+    "options": [
+      "Model underfits",
+      "Model overfits",
+      "Computation becomes impossible",
+      "Distance metrics fail"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 103,
+    "code": "SN7-18",
+    "category": "PDF 7",
+    "fp_tag": "",
+    "question": "What happens when k is chosen too large in k-NN?",
+    "options": [
+      "Overfitting increases",
+      "Decision boundaries become smoother",
+      "Training fails",
+      "Noise dominates"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 104,
+    "code": "SN7-19",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Which learning paradigm does Naive Bayes belong to?",
+    "options": [
+      "Unsupervised learning",
+      "Supervised learning",
+      "Reinforcement learning",
+      "Evolutionary learning"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 105,
+    "code": "SN7-20",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Which statement about probabilistic classifiers is correct?",
+    "options": [
+      "They output only class labels",
+      "They ignore uncertainty",
+      "They model uncertainty explicitly",
+      "They require linear separability"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 106,
+    "code": "SN7-21",
+    "category": "PDF 7",
+    "fp_tag": "",
+    "question": "Which factor most influences decision tree complexity?",
+    "options": [
+      "Learning rate",
+      "Tree depth",
+      "Distance metric",
+      "Prior probabilities"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 107,
+    "code": "SN7-22",
+    "category": "PDF 7",
+    "fp_tag": "FP",
+    "question": "Why are ensemble methods like Random Forests effective?",
+    "options": [
+      "They use a single deep tree",
+      "They combine multiple weak learners",
+      "They eliminate randomness",
+      "They avoid training"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 108,
+    "code": "SN7-23",
+    "category": "PDF 7",
+    "fp_tag": "",
+    "question": "Which concept helps evaluate relationships between numerical features?",
+    "options": [
+      "Entropy",
+      "Correlation coefficient",
+      "Kernel trick",
+      "Margin"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 109,
+    "code": "SN7-24",
+    "category": "PDF 7",
+    "fp_tag": "",
+    "question": "Which classifier is most sensitive to irrelevant features?",
+    "options": [
+      "Naive Bayes",
+      "k-Nearest Neighbor",
+      "Decision Tree",
+      "SVM"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 110,
+    "code": "SN7-25",
+    "category": "PDF 7",
+    "fp_tag": "",
+    "question": "Which statement best summarizes the goal of classification algorithms?",
+    "options": [
+      "Discover hidden clusters",
+      "Predict continuous values",
+      "Assign labels to unseen data",
+      "Optimize memory usage"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 111,
+    "code": "SN8-1",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "How do modern data mining systems differ from early expert systems such as LEXMED?",
+    "options": [
+      "Modern systems rely only on symbolic rules",
+      "Early expert systems used neural networks",
+      "Modern systems adapt models automatically from data",
+      "Early systems processed larger datasets"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 112,
+    "code": "SN8-2",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "What is a major advantage of adaptive learning models in data mining?",
+    "options": [
+      "Fixed decision rules",
+      "Ability to improve with new data",
+      "Elimination of preprocessing",
+      "Reduced need for evaluation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 113,
+    "code": "SN8-3",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Why is visualization considered crucial in data mining practice?",
+    "options": [
+      "It replaces machine learning algorithms",
+      "It reduces computational complexity",
+      "It improves human interpretability of patterns",
+      "It guarantees higher accuracy"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 114,
+    "code": "SN8-4",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Which modern tools exemplify the importance of visualization in data mining?",
+    "options": [
+      "LISP and PROLOG",
+      "Power BI and Tableau",
+      "Assembly and C",
+      "MySQL and MongoDB"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 115,
+    "code": "SN8-5",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Why is human interpretability important in data mining results?",
+    "options": [
+      "Machines cannot process numbers",
+      "Decisions often require human judgment",
+      "Interpretability reduces data size",
+      "It speeds up training"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 116,
+    "code": "SN8-6",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "What does the integration of statistics and AI in data mining reflect?",
+    "options": [
+      "The decline of symbolic AI",
+      "The interdisciplinary nature of AI",
+      "The elimination of learning algorithms",
+      "The dominance of probability theory"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 117,
+    "code": "SN8-7",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Which statistical concept is commonly integrated into data mining systems?",
+    "options": [
+      "Sorting algorithms",
+      "Correlation analysis",
+      "Stack operations",
+      "Binary encoding"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 118,
+    "code": "SN8-8",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "What challenge arises from the explosion of big data in data mining?",
+    "options": [
+      "Lack of models",
+      "Limited storage",
+      "Scalability",
+      "Low dimensionality"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 119,
+    "code": "SN8-9",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "How has cloud computing affected data mining practices?",
+    "options": [
+      "It reduced dataset sizes",
+      "It limited access to tools",
+      "It improved scalability and accessibility",
+      "It eliminated preprocessing"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 120,
+    "code": "SN8-10",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Which framework is commonly used for distributed data processing?",
+    "options": [
+      "OpenGL",
+      "Hadoop",
+      "MATLAB",
+      "Unity"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 121,
+    "code": "SN8-11",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "What is a key ethical concern in real-world data mining applications?",
+    "options": [
+      "Algorithm speed",
+      "Hardware cost",
+      "Data privacy",
+      "Model simplicity"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 122,
+    "code": "SN8-12",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Which issue arises when biased data is used in data mining?",
+    "options": [
+      "Faster convergence",
+      "Fairer models",
+      "Discriminatory outcomes",
+      "Improved generalization"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 123,
+    "code": "SN8-13",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Why is explainability important in ethical AI and data mining?",
+    "options": [
+      "It reduces memory usage",
+      "It increases model complexity",
+      "It allows understanding and accountability",
+      "It replaces validation"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 124,
+    "code": "SN8-14",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "What type of system is KNIME primarily designed to support?",
+    "options": [
+      "Game AI",
+      "Workflow-based data analytics",
+      "Operating systems",
+      "Compiler optimization"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 125,
+    "code": "SN8-15",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Where was KNIME originally developed?",
+    "options": [
+      "Stanford University",
+      "MIT",
+      "University of Konstanz",
+      "Oxford University"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 126,
+    "code": "SN8-16",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Who maintains and develops KNIME today?",
+    "options": [
+      "University of Konstanz",
+      "IBM",
+      "KNIME AG",
+      "Google"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 127,
+    "code": "SN8-17",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "What is the main benefit of workflow-based analytics tools like KNIME?",
+    "options": [
+      "Manual coding only",
+      "Visual programming and reproducibility",
+      "Elimination of machine learning",
+      "Fixed model structures"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 128,
+    "code": "SN8-18",
+    "category": "PDF 8",
+    "fp_tag": "",
+    "question": "Which phase of data mining benefits most from visualization?",
+    "options": [
+      "Data collection only",
+      "Model deployment only",
+      "Pattern discovery and evaluation",
+      "Hardware selection"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 129,
+    "code": "SN8-19",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Why is interdisciplinary knowledge important in modern data mining?",
+    "options": [
+      "Data mining is purely mathematical",
+      "Real-world problems span multiple domains",
+      "Algorithms work independently of context",
+      "Models do not require interpretation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 130,
+    "code": "SN8-20",
+    "category": "PDF 8",
+    "fp_tag": "",
+    "question": "Which application domain commonly raises ethical concerns in data mining?",
+    "options": [
+      "Sorting algorithms",
+      "Healthcare",
+      "Compiler design",
+      "Graph theory"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 131,
+    "code": "SN8-21",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "What does scalability in data mining primarily refer to?",
+    "options": [
+      "Accuracy improvement",
+      "Ability to handle increasing data volume",
+      "Reduction of noise",
+      "Feature selection"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 132,
+    "code": "SN8-22",
+    "category": "PDF 8",
+    "fp_tag": "",
+    "question": "Which factor most contributed to the rise of data mining?",
+    "options": [
+      "Small datasets",
+      "Limited storage",
+      "Availability of big data",
+      "Decline of statistics"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 133,
+    "code": "SN8-23",
+    "category": "PDF 8",
+    "fp_tag": "FP",
+    "question": "Why are early expert systems less flexible than modern data mining systems?",
+    "options": [
+      "They lacked symbolic reasoning",
+      "They relied on fixed rule bases",
+      "They used neural networks",
+      "They had too much data"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 134,
+    "code": "SN8-24",
+    "category": "PDF 8",
+    "fp_tag": "",
+    "question": "Which concept ensures responsible use of data mining technologies?",
+    "options": [
+      "Overfitting",
+      "Automation",
+      "Ethical governance",
+      "Feature scaling"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 135,
+    "code": "SN8-25",
+    "category": "PDF 8",
+    "fp_tag": "",
+    "question": "Which statement best summarizes the role of data mining today?",
+    "options": [
+      "It replaces human decision-making",
+      "It extracts actionable knowledge from large datasets",
+      "It eliminates uncertainty",
+      "It works only in academia"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 136,
+    "code": "SN9-1",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Which biological component receives incoming signals in a neuron?",
+    "options": [
+      "Axon",
+      "Synapse",
+      "Dendrite",
+      "Cell nucleus"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 137,
+    "code": "SN9-2",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What causes a biological neuron to fire?",
+    "options": [
+      "Random activation",
+      "External supervision",
+      "Accumulated potential exceeding a threshold",
+      "Maximum synaptic weight"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 138,
+    "code": "SN9-3",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What is the primary function of synapses in biological neurons?",
+    "options": [
+      "Transmitting electrical impulses directly",
+      "Storing long-term memory",
+      "Acting as adjustable connection points",
+      "Generating action potentials"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 139,
+    "code": "SN9-4",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Which neurotransmitter type is mainly responsible for excitation or inhibition between neurons?",
+    "options": [
+      "DNA",
+      "Hormones",
+      "Neurotransmitters",
+      "Enzymes"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 140,
+    "code": "SN9-5",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What is meant by **biological neuroplasticity**?",
+    "options": [
+      "Fixed neuron connections",
+      "Ability of neurons to change connections",
+      "Random neuron firing",
+      "Loss of synapses over time"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 141,
+    "code": "SN9-6",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "In artificial neural networks, what does a neuron compute?",
+    "options": [
+      "A probability distribution",
+      "A symbolic rule",
+      "A weighted sum followed by an activation function",
+      "A random output"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 142,
+    "code": "SN9-7",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Which model is considered one of the earliest formal neuron models?",
+    "options": [
+      "Backpropagation neuron",
+      "McCulloch–Pitts neuron",
+      "Hopfield neuron",
+      "Boltzmann neuron"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 143,
+    "code": "SN9-8",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What is the main purpose of modeling biological neurons in AI?",
+    "options": [
+      "Perfect biological simulation",
+      "Hardware optimization",
+      "Inspiration for computational learning systems",
+      "Replacing symbolic AI"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 144,
+    "code": "SN9-9",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Which learning principle is captured by the Hebb rule?",
+    "options": [
+      "Error minimization",
+      "Reward maximization",
+      "Correlation-based weight strengthening",
+      "Gradient descent"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 145,
+    "code": "SN9-10",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "The phrase *“cells that fire together wire together”* refers to:",
+    "options": [
+      "Backpropagation",
+      "Hebbian learning",
+      "Reinforcement learning",
+      "Supervised learning"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 146,
+    "code": "SN9-11",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What is the main function of a Hopfield network?",
+    "options": [
+      "Regression",
+      "Classification",
+      "Associative memory",
+      "Feature extraction"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 147,
+    "code": "SN9-12",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "How is information stored in a Hopfield network?",
+    "options": [
+      "In explicit rules",
+      "In neuron biases",
+      "In synaptic weights",
+      "In activation functions"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 148,
+    "code": "SN9-13",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What does a stable state in a Hopfield network correspond to?",
+    "options": [
+      "Maximum entropy",
+      "Random firing",
+      "Local minimum of the energy function",
+      "Maximum learning rate"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 149,
+    "code": "SN9-14",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Why is energy minimization important in Hopfield networks?",
+    "options": [
+      "It speeds up training",
+      "It ensures convergence to stored patterns",
+      "It increases storage capacity infinitely",
+      "It eliminates noise completely"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 150,
+    "code": "SN9-15",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What happens if too many patterns are stored in a Hopfield network?",
+    "options": [
+      "Accuracy improves",
+      "Memory capacity increases linearly",
+      "Network becomes unstable",
+      "Training becomes supervised"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 151,
+    "code": "SN9-16",
+    "category": "PDF 9",
+    "fp_tag": "",
+    "question": "Which factor mainly limits the storage capacity of Hopfield networks?",
+    "options": [
+      "Number of input samples",
+      "Number of neurons",
+      "Learning rate",
+      "Activation function type"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 152,
+    "code": "SN9-17",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What type of connections exist in a standard Hopfield network?",
+    "options": [
+      "Directed and asymmetric",
+      "Random and dynamic",
+      "Symmetric and fully connected",
+      "Sparse and hierarchical"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 153,
+    "code": "SN9-18",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Which concept links Hopfield networks to physical systems?",
+    "options": [
+      "Bayesian inference",
+      "Energy landscapes",
+      "Decision boundaries",
+      "Kernel functions"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 154,
+    "code": "SN9-19",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What is associative memory?",
+    "options": [
+      "Memory indexed by time",
+      "Memory retrieved by exact address",
+      "Memory retrieved from partial or noisy input",
+      "Memory stored externally"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 155,
+    "code": "SN9-20",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Which learning rule is typically used to store patterns in Hopfield networks?",
+    "options": [
+      "Gradient descent",
+      "Binary Hebb rule",
+      "Backpropagation",
+      "Reinforcement learning"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 156,
+    "code": "SN9-21",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Why are Hopfield networks not suitable for deep learning tasks?",
+    "options": [
+      "They require labeled data",
+      "They lack differentiability for backpropagation",
+      "They overfit easily",
+      "They need large datasets"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 157,
+    "code": "SN9-22",
+    "category": "PDF 9",
+    "fp_tag": "",
+    "question": "Which modern models are conceptually related to Hopfield networks?",
+    "options": [
+      "Decision trees",
+      "Support Vector Machines",
+      "Energy-based models",
+      "Naive Bayes classifiers"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 158,
+    "code": "SN9-23",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What role did Hopfield networks play in AI history?",
+    "options": [
+      "They replaced symbolic reasoning",
+      "They inspired modern neural architectures",
+      "They solved general intelligence",
+      "They eliminated supervised learning"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 159,
+    "code": "SN9-24",
+    "category": "PDF 9",
+    "fp_tag": "",
+    "question": "Which property ensures convergence in Hopfield networks?",
+    "options": [
+      "Random initialization",
+      "Asymmetric weights",
+      "Energy function minimization",
+      "High learning rate"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 160,
+    "code": "SN9-25",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "What distinguishes biological neurons from artificial neurons most clearly?",
+    "options": [
+      "Use of logic",
+      "Exact mathematical modeling",
+      "Massive parallelism and adaptability",
+      "Digital computation"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 161,
+    "code": "SN9-26",
+    "category": "PDF 9",
+    "fp_tag": "",
+    "question": "Which component is abstracted away in artificial neuron models?",
+    "options": [
+      "Input signals",
+      "Synaptic weights",
+      "Detailed biochemical processes",
+      "Activation functions"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 162,
+    "code": "SN9-27",
+    "category": "PDF 9",
+    "fp_tag": "FP",
+    "question": "Why are artificial neurons considered simplified models?",
+    "options": [
+      "They lack inputs",
+      "They ignore most biological complexity",
+      "They do not learn",
+      "They are symbolic"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 163,
+    "code": "SN9-28",
+    "category": "PDF 9",
+    "fp_tag": "",
+    "question": "Which statement about Hebbian learning is correct?",
+    "options": [
+      "It minimizes global error",
+      "It is supervised",
+      "It strengthens correlated activations",
+      "It requires labeled outputs"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 164,
+    "code": "SN9-29",
+    "category": "PDF 9",
+    "fp_tag": "",
+    "question": "Which learning paradigm best describes Hopfield networks?",
+    "options": [
+      "Supervised learning",
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Evolutionary learning"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 165,
+    "code": "SN9-30",
+    "category": "PDF 9",
+    "fp_tag": "",
+    "question": "Which limitation most strongly restricts Hopfield networks in practice?",
+    "options": [
+      "High training cost",
+      "Limited storage capacity",
+      "Requirement of labels",
+      "Kernel selection"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 166,
+    "code": "SN10-1",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "What is the main objective of the backpropagation algorithm?",
+    "options": [
+      "To randomly initialize network weights",
+      "To propagate inputs forward through the network",
+      "To minimize the error function by adjusting weights",
+      "To eliminate hidden layers"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 167,
+    "code": "SN10-2",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Why must activation functions be differentiable in backpropagation?",
+    "options": [
+      "To speed up computation",
+      "To apply the chain rule of calculus",
+      "To reduce overfitting",
+      "To simplify network architecture"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 168,
+    "code": "SN10-3",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Which limitation of the perceptron model led to the development of multi-layer neural networks?",
+    "options": [
+      "Inability to process large datasets",
+      "Inability to learn non-linearly separable functions",
+      "High computational cost",
+      "Sensitivity to noise"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 169,
+    "code": "SN10-4",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Which problem is classically used to demonstrate the failure of single-layer perceptrons?",
+    "options": [
+      "AND",
+      "OR",
+      "XOR",
+      "NAND"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 170,
+    "code": "SN10-5",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Backpropagation is primarily applied to which type of neural network?",
+    "options": [
+      "Recurrent neural networks",
+      "Feedforward neural networks",
+      "Bayesian networks",
+      "Hopfield networks"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 171,
+    "code": "SN10-6",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "What role does the error (loss) function play in backpropagation?",
+    "options": [
+      "It defines network topology",
+      "It measures the difference between predicted and target outputs",
+      "It initializes weights",
+      "It selects input features"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 172,
+    "code": "SN10-7",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Which loss function is commonly used in classical backpropagation examples in the slides?",
+    "options": [
+      "Cross-entropy loss",
+      "Hinge loss",
+      "Sum of squared errors",
+      "KL-divergence"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 173,
+    "code": "SN10-8",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "What does gradient descent attempt to optimize during training?",
+    "options": [
+      "Number of neurons",
+      "Network depth",
+      "Error function",
+      "Input dimensionality"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 174,
+    "code": "SN10-9",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "What is the most likely consequence of choosing a very large learning rate?",
+    "options": [
+      "Very slow convergence",
+      "No weight updates",
+      "Oscillation or divergence during training",
+      "Guaranteed global minimum"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 175,
+    "code": "SN10-10",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "What happens if the learning rate is chosen too small?",
+    "options": [
+      "Training becomes unstable",
+      "Training converges very slowly",
+      "The model overfits immediately",
+      "Gradients explode"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 176,
+    "code": "SN10-11",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Which mathematical principle enables error propagation from output to hidden layers?",
+    "options": [
+      "Linear algebra",
+      "Probability theory",
+      "Chain rule",
+      "Bayesian inference"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 177,
+    "code": "SN10-12",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which layer directly computes the output error in backpropagation?",
+    "options": [
+      "Input layer",
+      "First hidden layer",
+      "Output layer",
+      "All layers simultaneously"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 178,
+    "code": "SN10-13",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "In backpropagation, how are hidden layer errors computed?",
+    "options": [
+      "Randomly",
+      "From the output layer errors",
+      "From the input data",
+      "From the bias values"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 179,
+    "code": "SN10-14",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Why are non-differentiable activation functions problematic for backpropagation?",
+    "options": [
+      "They increase memory usage",
+      "Gradients cannot be computed",
+      "They slow down inference",
+      "They require more data"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 180,
+    "code": "SN10-15",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which activation function was historically popular but can cause vanishing gradients?",
+    "options": [
+      "ReLU",
+      "Linear",
+      "Sigmoid",
+      "Softmax"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 181,
+    "code": "SN10-16",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "What does the vanishing gradient problem mainly affect?",
+    "options": [
+      "Input normalization",
+      "Deep neural networks",
+      "Linear classifiers",
+      "Output layer only"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 182,
+    "code": "SN10-17",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Why is differentiability essential for gradient-based learning?",
+    "options": [
+      "It reduces noise",
+      "It allows analytical gradient computation",
+      "It simplifies datasets",
+      "It guarantees optimality"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 183,
+    "code": "SN10-18",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which component controls the step size of weight updates?",
+    "options": [
+      "Bias",
+      "Momentum",
+      "Learning rate",
+      "Activation function"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 184,
+    "code": "SN10-19",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "What is the main advantage of multi-layer neural networks over perceptrons?",
+    "options": [
+      "Faster training",
+      "Lower memory usage",
+      "Ability to model nonlinear decision boundaries",
+      "Simpler mathematical formulation"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 185,
+    "code": "SN10-20",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which optimization problem does neural network training correspond to?",
+    "options": [
+      "Sorting",
+      "Search",
+      "Function minimization",
+      "Clustering"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 186,
+    "code": "SN10-21",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Which classifier aims to maximize the margin between classes?",
+    "options": [
+      "Perceptron",
+      "Naive Bayes",
+      "Support Vector Machine",
+      "k-NN"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 187,
+    "code": "SN10-22",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "What is the core idea behind the kernel trick in SVMs?",
+    "options": [
+      "Reducing dimensionality",
+      "Mapping data to higher-dimensional space",
+      "Eliminating support vectors",
+      "Avoiding optimization"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 188,
+    "code": "SN10-23",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Why does maximizing the margin improve generalization in SVMs?",
+    "options": [
+      "It reduces training time",
+      "It increases model complexity",
+      "It reduces sensitivity to noise",
+      "It eliminates outliers"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 189,
+    "code": "SN10-24",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which kernel is commonly used for non-linear classification?",
+    "options": [
+      "Linear",
+      "Polynomial",
+      "Radial Basis Function (RBF)",
+      "Identity"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 190,
+    "code": "SN10-25",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "What do support vectors represent?",
+    "options": [
+      "All training samples",
+      "Misclassified samples",
+      "Boundary-defining samples",
+      "Random points"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 191,
+    "code": "SN10-26",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which statement best describes backpropagation?",
+    "options": [
+      "A rule-based inference method",
+      "A supervised learning algorithm",
+      "An unsupervised clustering method",
+      "A symbolic reasoning system"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 192,
+    "code": "SN10-27",
+    "category": "PDF 10",
+    "fp_tag": "FP",
+    "question": "Why is backpropagation considered a breakthrough in neural network history?",
+    "options": [
+      "It eliminated the need for data",
+      "It enabled training of multi-layer networks",
+      "It replaced symbolic AI",
+      "It guarantees global optimality"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 193,
+    "code": "SN10-28",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which factor most strongly affects convergence speed?",
+    "options": [
+      "Number of classes",
+      "Learning rate",
+      "Dataset size",
+      "Output labels"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 194,
+    "code": "SN10-29",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "What does a local minimum represent in training?",
+    "options": [
+      "Best possible solution",
+      "A point where gradients are zero but not global optimum",
+      "Model failure",
+      "Overfitting state"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 195,
+    "code": "SN10-30",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Why can training get stuck in local minima?",
+    "options": [
+      "Discrete weights",
+      "Non-convex error surfaces",
+      "Linear activation functions",
+      "Small datasets"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 196,
+    "code": "SN10-31",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which method helps reduce oscillations during gradient descent?",
+    "options": [
+      "Feature scaling",
+      "Momentum",
+      "Dropout",
+      "Regularization"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 197,
+    "code": "SN10-32",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "What is the role of bias terms in neural networks?",
+    "options": [
+      "Increase input size",
+      "Shift activation thresholds",
+      "Normalize gradients",
+      "Reduce overfitting"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 198,
+    "code": "SN10-33",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which statement about SVMs is correct?",
+    "options": [
+      "They minimize squared error",
+      "They maximize classification margin",
+      "They require differentiable activation functions",
+      "They are unsupervised"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 199,
+    "code": "SN10-34",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Compared to perceptrons, SVMs primarily differ in:",
+    "options": [
+      "Use of kernels and margins",
+      "Requirement of labeled data",
+      "Binary output",
+      "Linear decision boundaries only"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 200,
+    "code": "SN10-35",
+    "category": "PDF 10",
+    "fp_tag": "",
+    "question": "Which learning paradigm do both backpropagation and SVMs belong to?",
+    "options": [
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Supervised learning",
+      "Evolutionary learning"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 201,
+    "code": "KAAN-1",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the purpose of cross-validation in model evaluation?",
+    "options": [
+      "Increase variance",
+      "Prevent overfitting and choose optimal parameters",
+      "Memorize data",
+      "Reduce features"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 202,
+    "code": "KAAN-2",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is separating training and test data important?",
+    "options": [
+      "To increase training accuracy",
+      "To fairly evaluate generalization performance",
+      "To reduce entropy",
+      "To simplify the model"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 203,
+    "code": "KAAN-3",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main purpose of data analysis in machine learning?",
+    "options": [
+      "To increase model complexity",
+      "To remove all noise",
+      "To reduce dataset size",
+      "To understand data and prepare it for learning"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 204,
+    "code": "KAAN-4",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which concept measures the relationship between two variables?",
+    "options": [
+      "Variance",
+      "Entropy",
+      "Distance",
+      "Correlation"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 205,
+    "code": "KAAN-5",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does a high correlation coefficient indicate?",
+    "options": [
+      "Random relationship",
+      "Strong dependency between variables",
+      "No relationship",
+      "High noise"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 206,
+    "code": "KAAN-6",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the perceptron mainly used for?",
+    "options": [
+      "Regression",
+      "Clustering",
+      "Linear classification",
+      "Dimensionality reduction"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 207,
+    "code": "KAAN-7",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is the perceptron limited in learning capability?",
+    "options": [
+      "Uses too much memory",
+      "Requires labeled data",
+      "Can only learn linearly separable data",
+      "Needs normalization"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 208,
+    "code": "KAAN-8",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main idea of the Nearest Neighbor method?",
+    "options": [
+      "Build a tree",
+      "Compare to closest training examples",
+      "Use probability tables",
+      "Learn weights"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 209,
+    "code": "KAAN-9",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does a decision tree leaf node represent?",
+    "options": [
+      "A feature",
+      "A test condition",
+      "A class label",
+      "Entropy"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 210,
+    "code": "KAAN-10",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is entropy used for in decision tree learning?",
+    "options": [
+      "Measure accuracy",
+      "Measure randomness",
+      "Measure distance",
+      "Measure correlation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 211,
+    "code": "KAAN-11",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does information gain measure?",
+    "options": [
+      "Increase in variance",
+      "Decrease in entropy",
+      "Model complexity",
+      "Number of features"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 212,
+    "code": "KAAN-12",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is overfitting?",
+    "options": [
+      "Model performs poorly on training data",
+      "Model memorizes training data",
+      "Model is too simple",
+      "Model ignores patterns"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 213,
+    "code": "KAAN-13",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is cross-validation used?",
+    "options": [
+      "To reduce dataset size",
+      "To increase bias",
+      "To evaluate generalization performance",
+      "To cluster data"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 214,
+    "code": "KAAN-14",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is a Bayesian Network?",
+    "options": [
+      "Undirected graph",
+      "Decision tree",
+      "Directed acyclic graph with probabilities",
+      "Linear classifier"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 215,
+    "code": "KAAN-15",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does a Conditional Probability Table (CPT) store?",
+    "options": [
+      "Feature values",
+      "Distances",
+      "P(Node | Parents)",
+      "Accuracy"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 216,
+    "code": "KAAN-16",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What makes learning the structure of a Bayesian Network difficult?",
+    "options": [
+      "It is linear",
+      "It is an NP-hard problem",
+      "Requires labels",
+      "Needs clustering"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 217,
+    "code": "KAAN-17",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is the Naive Bayes classifier called \"naive\"?",
+    "options": [
+      "It ignores data",
+      "It assumes feature independence",
+      "It uses small datasets",
+      "It is slow"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 218,
+    "code": "KAAN-18",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What structure does Naive Bayes form in Bayesian Networks?",
+    "options": [
+      "Chain",
+      "Tree",
+      "Star-shaped structure",
+      "Grid"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 219,
+    "code": "KAAN-19",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is Naive Bayes effective in spam filtering?",
+    "options": [
+      "Uses clustering",
+      "Robust to noise and large vocabularies",
+      "Requires few features",
+      "Uses decision trees"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 220,
+    "code": "KAAN-20",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is clustering mainly used for?",
+    "options": [
+      "Prediction",
+      "Classification",
+      "Descriptive data analysis",
+      "Regression"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 221,
+    "code": "KAAN-21",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is clustering considered unsupervised learning?",
+    "options": [
+      "Uses labels",
+      "Predicts outcomes",
+      "No predefined class labels",
+      "Uses entropy"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 222,
+    "code": "KAAN-22",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the goal of clustering?",
+    "options": [
+      "Maximize distance within clusters",
+      "Minimize distance within clusters",
+      "Maximize entropy",
+      "Reduce features"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 223,
+    "code": "KAAN-23",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which distance metric is based on squared differences?",
+    "options": [
+      "Manhattan",
+      "Chebyshev",
+      "Euclidean",
+      "Cosine"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 224,
+    "code": "KAAN-24",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is normalization important before distance-based clustering?",
+    "options": [
+      "Reduces features",
+      "Prevents dominance of large-scale features",
+      "Increases noise",
+      "Speeds up labeling"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 225,
+    "code": "KAAN-25",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main idea of the SLINK algorithm?",
+    "options": [
+      "Top-down clustering",
+      "Bottom-up hierarchical clustering",
+      "Random clustering",
+      "Density-based clustering"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 226,
+    "code": "KAAN-26",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the time complexity of the SLINK algorithm?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n²)",
+      "O(n³)"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 227,
+    "code": "KAAN-27",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main objective of the K-means algorithm?",
+    "options": [
+      "Maximize inter-cluster distance",
+      "Minimize intra-cluster squared distances",
+      "Build a hierarchy",
+      "Estimate probabilities"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 228,
+    "code": "KAAN-28",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main goal of Bayesian learning in machine learning?",
+    "options": [
+      "Distance calculation",
+      "Probability-based inference",
+      "Feature elimination",
+      "Clustering"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 229,
+    "code": "KAAN-29",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is posterior probability?",
+    "options": [
+      "Prior probability",
+      "Probability after observing evidence",
+      "Conditional independence",
+      "Noise estimation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 230,
+    "code": "KAAN-30",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which theorem is the foundation of Bayesian learning?",
+    "options": [
+      "Markov theorem",
+      "Bayes' theorem",
+      "Central limit theorem",
+      "Shannon theorem"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 231,
+    "code": "KAAN-31",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main objective of clustering in data mining?",
+    "options": [
+      "Prediction",
+      "Classification",
+      "Discover structure in data",
+      "Feature labeling"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 232,
+    "code": "KAAN-32",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is clustering an unsupervised learning method?",
+    "options": [
+      "Uses labels",
+      "Requires training output",
+      "No labeled output is provided",
+      "Predicts classes"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 233,
+    "code": "KAAN-33",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How do modern data mining systems differ from early AI expert systems like LEXMED?",
+    "options": [
+      "They rely solely on manual rule input",
+      "They use adaptive learning and neural-based mining on large-scale data",
+      "They cannot handle numerical data",
+      "They are slower and less accurate than human experts"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 234,
+    "code": "KAAN-34",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the primary role of visualization in data mining practice?",
+    "options": [
+      "To increase the processing time of the algorithm",
+      "To hide complex data from the user",
+      "To make mined patterns crucial for human interpretability",
+      "To replace statistical analysis completely"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 235,
+    "code": "KAAN-35",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How has cloud computing transformed data mining regarding scalability?",
+    "options": [
+      "It restricted data mining to small local datasets",
+      "It made parallel processing impossible",
+      "It allowed distributed processing on platforms like Hadoop and Spark",
+      "It eliminated the need for computers"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 236,
+    "code": "KAAN-36",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which of the following is an ethical challenge in data mining mentioned in the slides?",
+    "options": [
+      "The cost of hard drives",
+      "Privacy, bias, and explainability in AI",
+      "The difficulty of installing software",
+      "The lack of available data"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 237,
+    "code": "KAAN-37",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does the acronym KNIME stand for?",
+    "options": [
+      "Knowledge Node Information Mining Engine",
+      "KoNstanz Information MinEr",
+      "Kernel Network Intelligence Machine Environment",
+      "Konstanz Neural Interface Model"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 238,
+    "code": "KAAN-38",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Who is recognized as the primary initiator of the KNIME project?",
+    "options": [
+      "Geoffrey Hinton",
+      "Wolfgang Ertel",
+      "Professor Michael Berthold",
+      "Yann LeCun"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 239,
+    "code": "KAAN-39",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Where is the KNIME headquarters (KNIME AG) currently located?",
+    "options": [
+      "Berlin, Germany",
+      "Zurich, Switzerland",
+      "Konstanz, Germany",
+      "London, UK"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 240,
+    "code": "KAAN-40",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "In which year did the first public release of KNIME appear?",
+    "options": [
+      "2000",
+      "2010",
+      "2006",
+      "1998"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 241,
+    "code": "KAAN-41",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Under which license is the KNIME Analytics Platform (Desktop) distributed?",
+    "options": [
+      "Apache License 2.0",
+      "Proprietary Commercial License only",
+      "GNU General Public License (GPL) v3",
+      "MIT License"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 242,
+    "code": "KAAN-42",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which KNIME product requires a paid commercial proprietary license?",
+    "options": [
+      "KNIME Analytics Platform",
+      "KNIME Business Hub (formerly Server)",
+      "KNIME Community Extensions",
+      "KNIME Python Integration"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 243,
+    "code": "KAAN-43",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Can you use the KNIME Analytics Platform for commercial purposes for free?",
+    "options": [
+      "No, it is only for academic use",
+      "Yes, but you cannot install extensions",
+      "Yes, it is free to use for academic, personal, and commercial purposes",
+      "No, you must pay a monthly fee"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 244,
+    "code": "KAAN-44",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Does KNIME ship with its own internal Python interpreter?",
+    "options": [
+      "Yes, Python is pre-installed within KNIME",
+      "No, KNIME relies on an external Python environment",
+      "Yes, but only for version 2.7",
+      "No, KNIME does not support Python"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 245,
+    "code": "KAAN-45",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which tool is recommended in the slides to manage Python environments for KNIME?",
+    "options": [
+      "Pipenv",
+      "Docker",
+      "Conda (Miniconda/Anaconda)",
+      "Virtualenv"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 246,
+    "code": "KAAN-46",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is using Conda environments beneficial for KNIME integration?",
+    "options": [
+      "It makes the computer run faster",
+      "It allows pinning a stable Python version and ensures reproducibility",
+      "It automatically writes the code for you",
+      "It is the only way to open KNIME"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 247,
+    "code": "KAAN-47",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Where do you configure the path to the Conda installation in KNIME?",
+    "options": [
+      "File > New Workflow",
+      "Help > About",
+      "Preferences > KNIME > Conda",
+      "View > Node Repository"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 248,
+    "code": "KAAN-48",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which deep learning libraries are explicitly mentioned for configuration in the slides?",
+    "options": [
+      "PyTorch and Caffe",
+      "Keras and TensorFlow 2",
+      "Theano and MXNet",
+      "Scikit-learn only"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 249,
+    "code": "KAAN-49",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "When configuring Deep Learning in KNIME, what specific action is required for Keras/TensorFlow?",
+    "options": [
+      "Writing a C++ script",
+      "Creating a specific Conda environment (e.g., py3_knime_dl)",
+      "Buying a GPU license",
+      "Reinstalling Windows"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 250,
+    "code": "KAAN-50",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "In a KNIME workflow, what is the function of the \"Table Partitioner\" node?",
+    "options": [
+      "To visualize the data in a scatter plot",
+      "To split the data into training and testing sets",
+      "To read the data from a file",
+      "To calculate the accuracy score"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 251,
+    "code": "KAAN-51",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "In the provided example screenshots, what is the typical split ratio used for training and testing?",
+    "options": [
+      "50% training, 50% testing",
+      "90% training, 10% testing",
+      "80% training, 20% testing",
+      "20% training, 80% testing"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 252,
+    "code": "KAAN-52",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which node is used to evaluate the performance of a prediction model (e.g., accuracy)?",
+    "options": [
+      "Decision Tree Learner",
+      "Scorer",
+      "ARFF Reader",
+      "Python Script"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 253,
+    "code": "KAAN-53",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does the \"Decision Tree Learner\" node output?",
+    "options": [
+      "A trained model ready for prediction",
+      "An accuracy percentage",
+      "A clean dataset",
+      "A Python code file"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 254,
+    "code": "KAAN-54",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which algorithm is identified as \"SimpleCart\" or \"C4.5\" in the screenshots?",
+    "options": [
+      "Neural Network",
+      "Decision Tree",
+      "Naive Bayes",
+      "Linear Regression"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 255,
+    "code": "KAAN-55",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Where can users find ready-made workflows and resources according to the slides?",
+    "options": [
+      "KNIME Hub",
+      "Google Play Store",
+      "Stack Overflow only",
+      "The local hard drive"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 256,
+    "code": "KAAN-56",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "To create a new workflow in KNIME, what is the first step after launching?",
+    "options": [
+      "Install Python",
+      "Set up the workspace",
+      "Export to Excel",
+      "Run the Scorer node"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 257,
+    "code": "KAAN-57",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which node is depicted for reading the \"Diabetes.arff\" dataset?",
+    "options": [
+      "File Reader",
+      "ARFF Reader",
+      "Excel Reader",
+      "Database Connector"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 258,
+    "code": "KAAN-58",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is a key limitation when trying to model biological neurons computationally in artificial neural networks?",
+    "options": [
+      "Biological neurons are too simple compared to computers",
+      "It is difficult to capture the full complexity and biochemical processes of real neurons efficiently",
+      "Artificial networks are already faster than the human brain in every aspect",
+      "There are no limitations; they are identical"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 259,
+    "code": "KAAN-59",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which principle best describes the Hebbian learning rule?",
+    "options": [
+      "Cells that fire together, wire together",
+      "Minimize the error through backpropagation",
+      "The winner takes it all",
+      "Divide and conquer"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 260,
+    "code": "KAAN-60",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What type of memory is characteristic of Hopfield Networks?",
+    "options": [
+      "Random Access Memory (RAM)",
+      "Sequential Memory",
+      "Associative Memory",
+      "Read-Only Memory (ROM)"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 261,
+    "code": "KAAN-61",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "In Hopfield networks, what does the concept of \"energy minimization\" relate to?",
+    "options": [
+      "Reducing the electricity consumption of the computer",
+      "The system settling into a stable state or pattern",
+      "Increasing the speed of the processor",
+      "Erasing the memory of the network"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 262,
+    "code": "KAAN-62",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which major algorithm helped resolve the non-differentiability limitation of early models like Hopfield networks?",
+    "options": [
+      "K-Means Clustering",
+      "The Apriori Algorithm",
+      "Backpropagation",
+      "Decision Tree Induction"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 263,
+    "code": "KAAN-63",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the primary role of dendrites in a biological neuron?",
+    "options": [
+      "Transmitting electrical impulses",
+      "Receiving signals from other neurons",
+      "Generating neurotransmitters",
+      "Storing long-term memory"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 264,
+    "code": "KAAN-64",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What triggers a biological neuron to fire?",
+    "options": [
+      "Neurotransmitter depletion",
+      "Synaptic weight decay",
+      "Membrane potential exceeding a threshold",
+      "Continuous input without interruption"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 265,
+    "code": "KAAN-65",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which component of a neuron is primarily responsible for learning in the brain?",
+    "options": [
+      "Axon",
+      "Dendrites",
+      "Synapses",
+      "Cell body"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 266,
+    "code": "KAAN-66",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does biological neuroplasticity refer to?",
+    "options": [
+      "Neurons changing their shape permanently",
+      "Synapses strengthening or weakening over time",
+      "Neurons firing randomly",
+      "Brain size increasing with age"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 267,
+    "code": "KAAN-67",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which principle best describes Hebbian learning?",
+    "options": [
+      "Neurons compete to suppress others",
+      "Errors drive weight correction",
+      "Cells that fire together wire together",
+      "Learning occurs only with supervision"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 268,
+    "code": "KAAN-68",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which activity best enhances synaptic connections in the brain?",
+    "options": [
+      "Passive observation",
+      "Repetitive and meaningful practice",
+      "Random neural firing",
+      "Sensory deprivation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 269,
+    "code": "KAAN-69",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why are symbolic AI methods insufficient for perception tasks?",
+    "options": [
+      "They require labeled data",
+      "They are computationally expensive",
+      "They cannot handle parallel and adaptive processing",
+      "They lack mathematical foundations"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 270,
+    "code": "KAAN-70",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the purpose of an activation function in an artificial neuron?",
+    "options": [
+      "To store past inputs",
+      "To transform weighted sums into outputs",
+      "To update synaptic weights",
+      "To normalize training data"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 271,
+    "code": "KAAN-71",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which activation function is commonly used in perceptrons?",
+    "options": [
+      "Sigmoid",
+      "ReLU",
+      "Step function",
+      "Softmax"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 272,
+    "code": "KAAN-72",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which activation behavior is most similar to biological neurons?",
+    "options": [
+      "Linear identity",
+      "Threshold-based firing",
+      "Polynomial activation",
+      "Constant output"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 273,
+    "code": "KAAN-73",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What kind of network is a Hopfield network?",
+    "options": [
+      "Feedforward supervised network",
+      "Fully connected recurrent network",
+      "Convolutional neural network",
+      "Deep reinforcement network"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 274,
+    "code": "KAAN-74",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What type of memory does a Hopfield network implement?",
+    "options": [
+      "Episodic memory",
+      "Procedural memory",
+      "Content-addressable associative memory",
+      "Cache memory"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 275,
+    "code": "KAAN-75",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why must Hopfield network weights be symmetric?",
+    "options": [
+      "To allow supervised learning",
+      "To reduce memory size",
+      "To guarantee energy minimization",
+      "To speed up convergence"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 276,
+    "code": "KAAN-76",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What values do neurons take in a classical Hopfield network?",
+    "options": [
+      "0 and 1",
+      "−1 and +1",
+      "Continuous real values",
+      "Probabilistic outputs"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 277,
+    "code": "KAAN-77",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why are −1 and +1 used instead of 0 and 1 in Hopfield networks?",
+    "options": [
+      "To simplify hardware implementation",
+      "To model inhibitory and excitatory states",
+      "To reduce memory usage",
+      "To enable backpropagation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 278,
+    "code": "KAAN-78",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What happens when too many patterns are stored in a Hopfield network?",
+    "options": [
+      "Perfect recall improves",
+      "Learning becomes supervised",
+      "Spurious attractors appear",
+      "Training stops automatically"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 279,
+    "code": "KAAN-79",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the approximate storage capacity of a Hopfield network?",
+    "options": [
+      "n",
+      "log(n)",
+      "0.146n",
+      "n²"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 280,
+    "code": "KAAN-80",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is an attractor in a Hopfield network?",
+    "options": [
+      "A random noise pattern",
+      "A stable state representing stored memory",
+      "A learning rule",
+      "A loss function"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 281,
+    "code": "KAAN-81",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why are Hopfield networks not commonly used in modern AI?",
+    "options": [
+      "They require labeled datasets",
+      "They are biologically unrealistic",
+      "They scale poorly and have limited capacity",
+      "They cannot use GPUs"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 282,
+    "code": "KAAN-82",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does the energy function represent in Hopfield networks?",
+    "options": [
+      "Classification error",
+      "Network instability",
+      "A measure guiding convergence to stable states",
+      "Learning speed"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 283,
+    "code": "KAAN-83",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What type of association does a Hopfield network perform?",
+    "options": [
+      "Hetero-association",
+      "Auto-association",
+      "Temporal association",
+      "Probabilistic association"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 284,
+    "code": "KAAN-84",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What limitation of Hopfield networks motivates feedforward models?",
+    "options": [
+      "Need for labeled data",
+      "Only auto-association capability",
+      "Requirement of GPUs",
+      "Excessive training time"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 285,
+    "code": "KAAN-85",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is traditional list memory insufficient for recognition tasks?",
+    "options": [
+      "It consumes too much energy",
+      "It requires exact matching",
+      "It is biologically inspired",
+      "It learns too slowly"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 286,
+    "code": "KAAN-86",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main advantage of associative memory?",
+    "options": [
+      "Exact matching",
+      "Rule-based reasoning",
+      "Similarity-based retrieval",
+      "Deterministic outputs"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 287,
+    "code": "KAAN-87",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is nearest neighbor computationally expensive for large datasets?",
+    "options": [
+      "Requires training",
+      "Needs kernel functions",
+      "Compares with all stored examples",
+      "Uses gradient descent"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 288,
+    "code": "KAAN-88",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How do neural networks handle similarity better than hand-crafted metrics?",
+    "options": [
+      "They store all data",
+      "They learn representations automatically",
+      "They use symbolic rules",
+      "They avoid generalization"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 289,
+    "code": "KAAN-89",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the goal of Correlation Matrix Memory (CMM)?",
+    "options": [
+      "Error minimization",
+      "Input-to-output association",
+      "Sequence prediction",
+      "Feature extraction"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 290,
+    "code": "KAAN-90",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What learning principle does CMM rely on?",
+    "options": [
+      "Backpropagation",
+      "Reinforcement learning",
+      "Hebbian learning",
+      "Bayesian inference"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 291,
+    "code": "KAAN-91",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What kind of learning does the Binary Hebb Rule use?",
+    "options": [
+      "Gradient-based",
+      "Probabilistic",
+      "Logical OR-based",
+      "Error-driven"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 292,
+    "code": "KAAN-92",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What happens to a weight once it becomes 1 in the Binary Hebb Rule?",
+    "options": [
+      "It decays over time",
+      "It can decrease",
+      "It remains permanently active",
+      "It oscillates"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 293,
+    "code": "KAAN-93",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which patterns work best with the Binary Hebb Rule?",
+    "options": [
+      "Dense patterns",
+      "Sparse patterns",
+      "Continuous patterns",
+      "Random patterns"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 294,
+    "code": "KAAN-94",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is a major limitation of the Binary Hebb Rule?",
+    "options": [
+      "Slow learning",
+      "No forgetting mechanism",
+      "High computational cost",
+      "Requires supervision"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 295,
+    "code": "KAAN-95",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How are words encoded in the spelling correction program?",
+    "options": [
+      "ASCII values",
+      "Whole-word vectors",
+      "Letter pair binary vectors",
+      "Phonetic encoding"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 296,
+    "code": "KAAN-96",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why are letter pairs used instead of single letters?",
+    "options": [
+      "To reduce vector size",
+      "To capture word structure",
+      "To simplify training",
+      "To avoid ambiguity"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 297,
+    "code": "KAAN-97",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does the output vector represent in the spelling correction system?",
+    "options": [
+      "Word frequency",
+      "Character positions",
+      "Edit distance",
+      "Sound similarity"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 298,
+    "code": "KAAN-98",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What happens when input is ambiguous in the spelling correction system?",
+    "options": [
+      "System crashes",
+      "Exact match is forced",
+      "Blended outputs may appear",
+      "Training restarts"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 299,
+    "code": "KAAN-99",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is threshold selection important in associative memory recall?",
+    "options": [
+      "It affects training speed",
+      "It controls output sparsity",
+      "It defines memory size",
+      "It determines learning rate"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 300,
+    "code": "KAAN-100",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which modern models replaced classical Hopfield networks?",
+    "options": [
+      "Decision trees",
+      "Rule-based systems",
+      "Deep neural networks and transformers",
+      "Genetic algorithms"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 301,
+    "code": "KAAN-101",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is a key difference between Hopfield networks and modern deep learning?",
+    "options": [
+      "Use of neurons",
+      "Energy-based convergence vs gradient-based learning",
+      "Binary representation",
+      "Biological inspiration"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 302,
+    "code": "KAAN-102",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What major algorithm resolved the non-differentiability limitation of Hopfield networks?",
+    "options": [
+      "K-means",
+      "Backpropagation",
+      "Hebbian learning",
+      "Nearest neighbor"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 303,
+    "code": "KAAN-103",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the core idea of backpropagation?",
+    "options": [
+      "Random weight updates",
+      "Error propagation using chain rule",
+      "Memory retrieval",
+      "Logical inference"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 304,
+    "code": "KAAN-104",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How does learning rate affect backpropagation?",
+    "options": [
+      "Controls neuron count",
+      "Affects convergence speed and stability",
+      "Determines network depth",
+      "Defines activation function"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 305,
+    "code": "KAAN-105",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What principle do Support Vector Machines optimize?",
+    "options": [
+      "Minimum error",
+      "Maximum likelihood",
+      "Maximum margin",
+      "Minimum energy"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 306,
+    "code": "KAAN-106",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the purpose of the kernel trick in SVMs?",
+    "options": [
+      "Reduce training data",
+      "Enable nonlinear classification",
+      "Speed up convergence",
+      "Avoid overfitting"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 307,
+    "code": "KAAN-107",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which kernel is commonly used for complex patterns?",
+    "options": [
+      "Linear",
+      "Polynomial",
+      "Radial Basis Function (RBF)",
+      "Identity"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 308,
+    "code": "KAAN-108",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How is associative memory implemented in modern AI?",
+    "options": [
+      "Exact lookup tables",
+      "Symbolic rules",
+      "Differentiable memory and attention mechanisms",
+      "Binary storage"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 309,
+    "code": "KAAN-109",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is deep learning more scalable than Hopfield networks?",
+    "options": [
+      "Uses binary neurons",
+      "Uses gradient-based optimization",
+      "Requires symmetry",
+      "Has limited memory"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 310,
+    "code": "KAAN-110",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which factor makes Hopfield networks biologically unrealistic?",
+    "options": [
+      "Binary neurons",
+      "Symmetric weight constraint",
+      "Associative memory",
+      "Energy minimization"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 311,
+    "code": "KAAN-111",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What type of learning dominates modern AI applications?",
+    "options": [
+      "Purely unsupervised",
+      "Rule-based",
+      "Supervised and weakly supervised",
+      "Random search"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 312,
+    "code": "KAAN-112",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main motivation behind artificial neural networks?",
+    "options": [
+      "Replacing biological neurons",
+      "Simulating brain-like adaptive and parallel processing",
+      "Reducing computation",
+      "Eliminating learning"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 313,
+    "code": "KAAN-113",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What main limitation of the perceptron motivated the development of backpropagation?",
+    "options": [
+      "High computational cost",
+      "Overfitting",
+      "Inability to learn nonlinear functions",
+      "Lack of training data"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 314,
+    "code": "KAAN-114",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Backpropagation is mainly used to train which type of neural networks?",
+    "options": [
+      "Recurrent neural networks",
+      "Hopfield networks",
+      "Multi-layer feedforward networks",
+      "Probabilistic graphical models"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 315,
+    "code": "KAAN-115",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why must activation functions be differentiable in backpropagation?",
+    "options": [
+      "To reduce memory usage",
+      "To apply Hebbian learning",
+      "To compute gradients using the chain rule",
+      "To avoid overfitting"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 316,
+    "code": "KAAN-116",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the role of the error (loss) function in backpropagation?",
+    "options": [
+      "Encoding input features",
+      "Measuring output deviation from the target",
+      "Selecting the network architecture",
+      "Initializing weights"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 317,
+    "code": "KAAN-117",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which loss function is commonly used in classical backpropagation?",
+    "options": [
+      "Cross-entropy",
+      "Hinge loss",
+      "Sum of squared errors",
+      "KL divergence"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 318,
+    "code": "KAAN-118",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the core idea of the backpropagation algorithm?",
+    "options": [
+      "Updating weights randomly",
+      "Forward-only error correction",
+      "Backward propagation of error using gradient descent",
+      "Energy minimization"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 319,
+    "code": "KAAN-119",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does the learning rate (η) control in backpropagation?",
+    "options": [
+      "Number of hidden layers",
+      "Speed of error computation",
+      "Step size of weight updates",
+      "Activation threshold"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 320,
+    "code": "KAAN-120",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What happens if the learning rate is chosen too large?",
+    "options": [
+      "Training converges faster and safely",
+      "The network stops learning",
+      "Learning may become unstable or diverge",
+      "Overfitting is eliminated"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 321,
+    "code": "KAAN-121",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which problem commonly occurs in deep networks trained with backpropagation?",
+    "options": [
+      "Exact memorization",
+      "Vanishing gradients",
+      "Symbol grounding problem",
+      "Lack of expressiveness"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 322,
+    "code": "KAAN-122",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which technique helps alleviate the vanishing gradient problem?",
+    "options": [
+      "Step activation functions",
+      "Binary neurons",
+      "ReLU activation",
+      "Exact matching"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 323,
+    "code": "KAAN-123",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Who first described the backpropagation algorithm?",
+    "options": [
+      "Geoffrey Hinton",
+      "Frank Rosenblatt",
+      "Paul Werbos",
+      "Vladimir Vapnik"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 324,
+    "code": "KAAN-124",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How does backpropagation differ from biological learning?",
+    "options": [
+      "It is unsupervised",
+      "It uses only local signals",
+      "It relies on a global explicit error signal",
+      "It uses spike timing"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 325,
+    "code": "KAAN-125",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What problem was NETTalk designed to solve?",
+    "options": [
+      "Image recognition",
+      "Handwriting recognition",
+      "Text-to-speech conversion",
+      "Machine translation"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 326,
+    "code": "KAAN-126",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why is NETTalk considered historically important?",
+    "options": [
+      "It introduced SVMs",
+      "It demonstrated backpropagation on a real-world task",
+      "It solved symbolic reasoning",
+      "It replaced rule-based AI"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 327,
+    "code": "KAAN-127",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How are inputs represented in NETTalk?",
+    "options": [
+      "Whole words",
+      "Phoneme sequences",
+      "Sliding window of encoded letters",
+      "ASCII values"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 328,
+    "code": "KAAN-128",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Why does NETTalk require context information?",
+    "options": [
+      "To reduce network size",
+      "To speed up training",
+      "Because pronunciation depends on neighboring letters",
+      "To eliminate supervision"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 329,
+    "code": "KAAN-129",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What behavior is observed during NETTalk training?",
+    "options": [
+      "Immediate perfect pronunciation",
+      "Random oscillations",
+      "Gradual improvement similar to human learning",
+      "No generalization"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 330,
+    "code": "KAAN-130",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is a key limitation of NETTalk?",
+    "options": [
+      "Cannot generalize",
+      "Requires large labeled datasets",
+      "Uses symbolic rules",
+      "Is unsupervised"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 331,
+    "code": "KAAN-131",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What does NETTalk demonstrate about knowledge representation?",
+    "options": [
+      "Knowledge must be rule-based",
+      "Knowledge is binary",
+      "Knowledge can be distributed and sub-symbolic",
+      "Knowledge is explicitly encoded"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 332,
+    "code": "KAAN-132",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What major problem motivates learning heuristics for theorem provers?",
+    "options": [
+      "Lack of training data",
+      "Vanishing gradients",
+      "Combinatorial explosion of the search space",
+      "Hardware limitations"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 333,
+    "code": "KAAN-133",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the role of neural networks in learning heuristics for theorem proving?",
+    "options": [
+      "Replacing logical inference",
+      "Learning rules explicitly",
+      "Guiding the search process",
+      "Performing exact proofs"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 334,
+    "code": "KAAN-134",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the input to a neural network learning heuristics for theorem provers?",
+    "options": [
+      "Final proof result",
+      "Logical axioms",
+      "Features describing the current proof state",
+      "Target theorem"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 335,
+    "code": "KAAN-135",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the output of such a heuristic-learning network?",
+    "options": [
+      "A full proof",
+      "A symbolic rule",
+      "A heuristic evaluation value",
+      "A theorem"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 336,
+    "code": "KAAN-136",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which learning method is used for heuristic learning in theorem provers?",
+    "options": [
+      "Reinforcement learning",
+      "Unsupervised learning",
+      "Supervised learning with backpropagation",
+      "Hebbian learning"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 337,
+    "code": "KAAN-137",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Who introduced Support Vector Machines (SVMs)?",
+    "options": [
+      "Paul Werbos",
+      "Geoffrey Hinton",
+      "Vladimir Vapnik",
+      "Frank Rosenblatt"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 338,
+    "code": "KAAN-138",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the main objective of an SVM classifier?",
+    "options": [
+      "Minimize training error",
+      "Maximize the margin",
+      "Maximize likelihood",
+      "Minimize weights"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 339,
+    "code": "KAAN-139",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What are support vectors in SVMs?",
+    "options": [
+      "All training points",
+      "Random samples",
+      "Points closest to the decision boundary",
+      "Misclassified points"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 340,
+    "code": "KAAN-140",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "How do SVMs handle non-linearly separable data?",
+    "options": [
+      "Ignoring errors",
+      "Using soft margins and slack variables",
+      "Increasing learning rate",
+      "Using backpropagation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 341,
+    "code": "KAAN-141",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "What is the purpose of the kernel trick in SVMs?",
+    "options": [
+      "Speeding up training",
+      "Reducing feature size",
+      "Enabling nonlinear classification",
+      "Avoiding regularization"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 342,
+    "code": "KAAN-142",
+    "category": "KAAN",
+    "fp_tag": "",
+    "question": "Which kernel is most commonly used for complex nonlinear patterns?",
+    "options": [
+      "Linear",
+      "Polynomial",
+      "Radial Basis Function (RBF)",
+      "Identity"
+    ],
+    "correct": 2
+  }
+]
