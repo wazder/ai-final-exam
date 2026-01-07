@@ -2801,8 +2801,8 @@
   },
   {
     "id": 201,
-    "code": "KAAN-1",
-    "category": "KAAN",
+    "code": "CENGO-1",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the purpose of cross-validation in model evaluation?",
     "options": [
@@ -2815,8 +2815,8 @@
   },
   {
     "id": 202,
-    "code": "KAAN-2",
-    "category": "KAAN",
+    "code": "CENGO-2",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is separating training and test data important?",
     "options": [
@@ -2829,8 +2829,8 @@
   },
   {
     "id": 203,
-    "code": "KAAN-3",
-    "category": "KAAN",
+    "code": "CENGO-3",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main purpose of data analysis in machine learning?",
     "options": [
@@ -2843,8 +2843,8 @@
   },
   {
     "id": 204,
-    "code": "KAAN-4",
-    "category": "KAAN",
+    "code": "CENGO-4",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which concept measures the relationship between two variables?",
     "options": [
@@ -2857,8 +2857,8 @@
   },
   {
     "id": 205,
-    "code": "KAAN-5",
-    "category": "KAAN",
+    "code": "CENGO-5",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does a high correlation coefficient indicate?",
     "options": [
@@ -2871,8 +2871,8 @@
   },
   {
     "id": 206,
-    "code": "KAAN-6",
-    "category": "KAAN",
+    "code": "CENGO-6",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the perceptron mainly used for?",
     "options": [
@@ -2885,8 +2885,8 @@
   },
   {
     "id": 207,
-    "code": "KAAN-7",
-    "category": "KAAN",
+    "code": "CENGO-7",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is the perceptron limited in learning capability?",
     "options": [
@@ -2899,8 +2899,8 @@
   },
   {
     "id": 208,
-    "code": "KAAN-8",
-    "category": "KAAN",
+    "code": "CENGO-8",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main idea of the Nearest Neighbor method?",
     "options": [
@@ -2913,8 +2913,8 @@
   },
   {
     "id": 209,
-    "code": "KAAN-9",
-    "category": "KAAN",
+    "code": "CENGO-9",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does a decision tree leaf node represent?",
     "options": [
@@ -2927,8 +2927,8 @@
   },
   {
     "id": 210,
-    "code": "KAAN-10",
-    "category": "KAAN",
+    "code": "CENGO-10",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is entropy used for in decision tree learning?",
     "options": [
@@ -2941,8 +2941,8 @@
   },
   {
     "id": 211,
-    "code": "KAAN-11",
-    "category": "KAAN",
+    "code": "CENGO-11",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does information gain measure?",
     "options": [
@@ -2955,8 +2955,8 @@
   },
   {
     "id": 212,
-    "code": "KAAN-12",
-    "category": "KAAN",
+    "code": "CENGO-12",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is overfitting?",
     "options": [
@@ -2969,8 +2969,8 @@
   },
   {
     "id": 213,
-    "code": "KAAN-13",
-    "category": "KAAN",
+    "code": "CENGO-13",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is cross-validation used?",
     "options": [
@@ -2983,8 +2983,8 @@
   },
   {
     "id": 214,
-    "code": "KAAN-14",
-    "category": "KAAN",
+    "code": "CENGO-14",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is a Bayesian Network?",
     "options": [
@@ -2997,8 +2997,8 @@
   },
   {
     "id": 215,
-    "code": "KAAN-15",
-    "category": "KAAN",
+    "code": "CENGO-15",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does a Conditional Probability Table (CPT) store?",
     "options": [
@@ -3011,8 +3011,8 @@
   },
   {
     "id": 216,
-    "code": "KAAN-16",
-    "category": "KAAN",
+    "code": "CENGO-16",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What makes learning the structure of a Bayesian Network difficult?",
     "options": [
@@ -3025,8 +3025,8 @@
   },
   {
     "id": 217,
-    "code": "KAAN-17",
-    "category": "KAAN",
+    "code": "CENGO-17",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is the Naive Bayes classifier called \"naive\"?",
     "options": [
@@ -3039,8 +3039,8 @@
   },
   {
     "id": 218,
-    "code": "KAAN-18",
-    "category": "KAAN",
+    "code": "CENGO-18",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What structure does Naive Bayes form in Bayesian Networks?",
     "options": [
@@ -3053,8 +3053,8 @@
   },
   {
     "id": 219,
-    "code": "KAAN-19",
-    "category": "KAAN",
+    "code": "CENGO-19",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is Naive Bayes effective in spam filtering?",
     "options": [
@@ -3067,8 +3067,8 @@
   },
   {
     "id": 220,
-    "code": "KAAN-20",
-    "category": "KAAN",
+    "code": "CENGO-20",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is clustering mainly used for?",
     "options": [
@@ -3081,8 +3081,8 @@
   },
   {
     "id": 221,
-    "code": "KAAN-21",
-    "category": "KAAN",
+    "code": "CENGO-21",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is clustering considered unsupervised learning?",
     "options": [
@@ -3095,8 +3095,8 @@
   },
   {
     "id": 222,
-    "code": "KAAN-22",
-    "category": "KAAN",
+    "code": "CENGO-22",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the goal of clustering?",
     "options": [
@@ -3109,8 +3109,8 @@
   },
   {
     "id": 223,
-    "code": "KAAN-23",
-    "category": "KAAN",
+    "code": "CENGO-23",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which distance metric is based on squared differences?",
     "options": [
@@ -3123,8 +3123,8 @@
   },
   {
     "id": 224,
-    "code": "KAAN-24",
-    "category": "KAAN",
+    "code": "CENGO-24",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is normalization important before distance-based clustering?",
     "options": [
@@ -3137,8 +3137,8 @@
   },
   {
     "id": 225,
-    "code": "KAAN-25",
-    "category": "KAAN",
+    "code": "CENGO-25",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main idea of the SLINK algorithm?",
     "options": [
@@ -3151,8 +3151,8 @@
   },
   {
     "id": 226,
-    "code": "KAAN-26",
-    "category": "KAAN",
+    "code": "CENGO-26",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the time complexity of the SLINK algorithm?",
     "options": [
@@ -3165,8 +3165,8 @@
   },
   {
     "id": 227,
-    "code": "KAAN-27",
-    "category": "KAAN",
+    "code": "CENGO-27",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main objective of the K-means algorithm?",
     "options": [
@@ -3179,8 +3179,8 @@
   },
   {
     "id": 228,
-    "code": "KAAN-28",
-    "category": "KAAN",
+    "code": "CENGO-28",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main goal of Bayesian learning in machine learning?",
     "options": [
@@ -3193,8 +3193,8 @@
   },
   {
     "id": 229,
-    "code": "KAAN-29",
-    "category": "KAAN",
+    "code": "CENGO-29",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is posterior probability?",
     "options": [
@@ -3207,8 +3207,8 @@
   },
   {
     "id": 230,
-    "code": "KAAN-30",
-    "category": "KAAN",
+    "code": "CENGO-30",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which theorem is the foundation of Bayesian learning?",
     "options": [
@@ -3221,8 +3221,8 @@
   },
   {
     "id": 231,
-    "code": "KAAN-31",
-    "category": "KAAN",
+    "code": "CENGO-31",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main objective of clustering in data mining?",
     "options": [
@@ -3235,8 +3235,8 @@
   },
   {
     "id": 232,
-    "code": "KAAN-32",
-    "category": "KAAN",
+    "code": "CENGO-32",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is clustering an unsupervised learning method?",
     "options": [
@@ -3249,8 +3249,8 @@
   },
   {
     "id": 233,
-    "code": "KAAN-33",
-    "category": "KAAN",
+    "code": "CENGO-33",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How do modern data mining systems differ from early AI expert systems like LEXMED?",
     "options": [
@@ -3263,8 +3263,8 @@
   },
   {
     "id": 234,
-    "code": "KAAN-34",
-    "category": "KAAN",
+    "code": "CENGO-34",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the primary role of visualization in data mining practice?",
     "options": [
@@ -3277,8 +3277,8 @@
   },
   {
     "id": 235,
-    "code": "KAAN-35",
-    "category": "KAAN",
+    "code": "CENGO-35",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How has cloud computing transformed data mining regarding scalability?",
     "options": [
@@ -3291,8 +3291,8 @@
   },
   {
     "id": 236,
-    "code": "KAAN-36",
-    "category": "KAAN",
+    "code": "CENGO-36",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which of the following is an ethical challenge in data mining mentioned in the slides?",
     "options": [
@@ -3305,8 +3305,8 @@
   },
   {
     "id": 237,
-    "code": "KAAN-37",
-    "category": "KAAN",
+    "code": "CENGO-37",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does the acronym KNIME stand for?",
     "options": [
@@ -3319,8 +3319,8 @@
   },
   {
     "id": 238,
-    "code": "KAAN-38",
-    "category": "KAAN",
+    "code": "CENGO-38",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Who is recognized as the primary initiator of the KNIME project?",
     "options": [
@@ -3333,8 +3333,8 @@
   },
   {
     "id": 239,
-    "code": "KAAN-39",
-    "category": "KAAN",
+    "code": "CENGO-39",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Where is the KNIME headquarters (KNIME AG) currently located?",
     "options": [
@@ -3347,8 +3347,8 @@
   },
   {
     "id": 240,
-    "code": "KAAN-40",
-    "category": "KAAN",
+    "code": "CENGO-40",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "In which year did the first public release of KNIME appear?",
     "options": [
@@ -3361,8 +3361,8 @@
   },
   {
     "id": 241,
-    "code": "KAAN-41",
-    "category": "KAAN",
+    "code": "CENGO-41",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Under which license is the KNIME Analytics Platform (Desktop) distributed?",
     "options": [
@@ -3375,8 +3375,8 @@
   },
   {
     "id": 242,
-    "code": "KAAN-42",
-    "category": "KAAN",
+    "code": "CENGO-42",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which KNIME product requires a paid commercial proprietary license?",
     "options": [
@@ -3389,8 +3389,8 @@
   },
   {
     "id": 243,
-    "code": "KAAN-43",
-    "category": "KAAN",
+    "code": "CENGO-43",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Can you use the KNIME Analytics Platform for commercial purposes for free?",
     "options": [
@@ -3403,8 +3403,8 @@
   },
   {
     "id": 244,
-    "code": "KAAN-44",
-    "category": "KAAN",
+    "code": "CENGO-44",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Does KNIME ship with its own internal Python interpreter?",
     "options": [
@@ -3417,8 +3417,8 @@
   },
   {
     "id": 245,
-    "code": "KAAN-45",
-    "category": "KAAN",
+    "code": "CENGO-45",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which tool is recommended in the slides to manage Python environments for KNIME?",
     "options": [
@@ -3431,8 +3431,8 @@
   },
   {
     "id": 246,
-    "code": "KAAN-46",
-    "category": "KAAN",
+    "code": "CENGO-46",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is using Conda environments beneficial for KNIME integration?",
     "options": [
@@ -3445,8 +3445,8 @@
   },
   {
     "id": 247,
-    "code": "KAAN-47",
-    "category": "KAAN",
+    "code": "CENGO-47",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Where do you configure the path to the Conda installation in KNIME?",
     "options": [
@@ -3459,8 +3459,8 @@
   },
   {
     "id": 248,
-    "code": "KAAN-48",
-    "category": "KAAN",
+    "code": "CENGO-48",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which deep learning libraries are explicitly mentioned for configuration in the slides?",
     "options": [
@@ -3473,8 +3473,8 @@
   },
   {
     "id": 249,
-    "code": "KAAN-49",
-    "category": "KAAN",
+    "code": "CENGO-49",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "When configuring Deep Learning in KNIME, what specific action is required for Keras/TensorFlow?",
     "options": [
@@ -3487,8 +3487,8 @@
   },
   {
     "id": 250,
-    "code": "KAAN-50",
-    "category": "KAAN",
+    "code": "CENGO-50",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "In a KNIME workflow, what is the function of the \"Table Partitioner\" node?",
     "options": [
@@ -3501,8 +3501,8 @@
   },
   {
     "id": 251,
-    "code": "KAAN-51",
-    "category": "KAAN",
+    "code": "CENGO-51",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "In the provided example screenshots, what is the typical split ratio used for training and testing?",
     "options": [
@@ -3515,8 +3515,8 @@
   },
   {
     "id": 252,
-    "code": "KAAN-52",
-    "category": "KAAN",
+    "code": "CENGO-52",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which node is used to evaluate the performance of a prediction model (e.g., accuracy)?",
     "options": [
@@ -3529,8 +3529,8 @@
   },
   {
     "id": 253,
-    "code": "KAAN-53",
-    "category": "KAAN",
+    "code": "CENGO-53",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does the \"Decision Tree Learner\" node output?",
     "options": [
@@ -3543,8 +3543,8 @@
   },
   {
     "id": 254,
-    "code": "KAAN-54",
-    "category": "KAAN",
+    "code": "CENGO-54",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which algorithm is identified as \"SimpleCart\" or \"C4.5\" in the screenshots?",
     "options": [
@@ -3557,8 +3557,8 @@
   },
   {
     "id": 255,
-    "code": "KAAN-55",
-    "category": "KAAN",
+    "code": "CENGO-55",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Where can users find ready-made workflows and resources according to the slides?",
     "options": [
@@ -3571,8 +3571,8 @@
   },
   {
     "id": 256,
-    "code": "KAAN-56",
-    "category": "KAAN",
+    "code": "CENGO-56",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "To create a new workflow in KNIME, what is the first step after launching?",
     "options": [
@@ -3585,8 +3585,8 @@
   },
   {
     "id": 257,
-    "code": "KAAN-57",
-    "category": "KAAN",
+    "code": "CENGO-57",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which node is depicted for reading the \"Diabetes.arff\" dataset?",
     "options": [
@@ -3599,8 +3599,8 @@
   },
   {
     "id": 258,
-    "code": "KAAN-58",
-    "category": "KAAN",
+    "code": "CENGO-58",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is a key limitation when trying to model biological neurons computationally in artificial neural networks?",
     "options": [
@@ -3613,8 +3613,8 @@
   },
   {
     "id": 259,
-    "code": "KAAN-59",
-    "category": "KAAN",
+    "code": "CENGO-59",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which principle best describes the Hebbian learning rule?",
     "options": [
@@ -3627,8 +3627,8 @@
   },
   {
     "id": 260,
-    "code": "KAAN-60",
-    "category": "KAAN",
+    "code": "CENGO-60",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What type of memory is characteristic of Hopfield Networks?",
     "options": [
@@ -3641,8 +3641,8 @@
   },
   {
     "id": 261,
-    "code": "KAAN-61",
-    "category": "KAAN",
+    "code": "CENGO-61",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "In Hopfield networks, what does the concept of \"energy minimization\" relate to?",
     "options": [
@@ -3655,8 +3655,8 @@
   },
   {
     "id": 262,
-    "code": "KAAN-62",
-    "category": "KAAN",
+    "code": "CENGO-62",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which major algorithm helped resolve the non-differentiability limitation of early models like Hopfield networks?",
     "options": [
@@ -3669,8 +3669,8 @@
   },
   {
     "id": 263,
-    "code": "KAAN-63",
-    "category": "KAAN",
+    "code": "CENGO-63",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the primary role of dendrites in a biological neuron?",
     "options": [
@@ -3683,8 +3683,8 @@
   },
   {
     "id": 264,
-    "code": "KAAN-64",
-    "category": "KAAN",
+    "code": "CENGO-64",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What triggers a biological neuron to fire?",
     "options": [
@@ -3697,8 +3697,8 @@
   },
   {
     "id": 265,
-    "code": "KAAN-65",
-    "category": "KAAN",
+    "code": "CENGO-65",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which component of a neuron is primarily responsible for learning in the brain?",
     "options": [
@@ -3711,8 +3711,8 @@
   },
   {
     "id": 266,
-    "code": "KAAN-66",
-    "category": "KAAN",
+    "code": "CENGO-66",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does biological neuroplasticity refer to?",
     "options": [
@@ -3725,8 +3725,8 @@
   },
   {
     "id": 267,
-    "code": "KAAN-67",
-    "category": "KAAN",
+    "code": "CENGO-67",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which principle best describes Hebbian learning?",
     "options": [
@@ -3739,8 +3739,8 @@
   },
   {
     "id": 268,
-    "code": "KAAN-68",
-    "category": "KAAN",
+    "code": "CENGO-68",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which activity best enhances synaptic connections in the brain?",
     "options": [
@@ -3753,8 +3753,8 @@
   },
   {
     "id": 269,
-    "code": "KAAN-69",
-    "category": "KAAN",
+    "code": "CENGO-69",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why are symbolic AI methods insufficient for perception tasks?",
     "options": [
@@ -3767,8 +3767,8 @@
   },
   {
     "id": 270,
-    "code": "KAAN-70",
-    "category": "KAAN",
+    "code": "CENGO-70",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the purpose of an activation function in an artificial neuron?",
     "options": [
@@ -3781,8 +3781,8 @@
   },
   {
     "id": 271,
-    "code": "KAAN-71",
-    "category": "KAAN",
+    "code": "CENGO-71",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which activation function is commonly used in perceptrons?",
     "options": [
@@ -3795,8 +3795,8 @@
   },
   {
     "id": 272,
-    "code": "KAAN-72",
-    "category": "KAAN",
+    "code": "CENGO-72",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which activation behavior is most similar to biological neurons?",
     "options": [
@@ -3809,8 +3809,8 @@
   },
   {
     "id": 273,
-    "code": "KAAN-73",
-    "category": "KAAN",
+    "code": "CENGO-73",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What kind of network is a Hopfield network?",
     "options": [
@@ -3823,8 +3823,8 @@
   },
   {
     "id": 274,
-    "code": "KAAN-74",
-    "category": "KAAN",
+    "code": "CENGO-74",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What type of memory does a Hopfield network implement?",
     "options": [
@@ -3837,8 +3837,8 @@
   },
   {
     "id": 275,
-    "code": "KAAN-75",
-    "category": "KAAN",
+    "code": "CENGO-75",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why must Hopfield network weights be symmetric?",
     "options": [
@@ -3851,8 +3851,8 @@
   },
   {
     "id": 276,
-    "code": "KAAN-76",
-    "category": "KAAN",
+    "code": "CENGO-76",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What values do neurons take in a classical Hopfield network?",
     "options": [
@@ -3865,8 +3865,8 @@
   },
   {
     "id": 277,
-    "code": "KAAN-77",
-    "category": "KAAN",
+    "code": "CENGO-77",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why are −1 and +1 used instead of 0 and 1 in Hopfield networks?",
     "options": [
@@ -3879,8 +3879,8 @@
   },
   {
     "id": 278,
-    "code": "KAAN-78",
-    "category": "KAAN",
+    "code": "CENGO-78",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What happens when too many patterns are stored in a Hopfield network?",
     "options": [
@@ -3893,8 +3893,8 @@
   },
   {
     "id": 279,
-    "code": "KAAN-79",
-    "category": "KAAN",
+    "code": "CENGO-79",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the approximate storage capacity of a Hopfield network?",
     "options": [
@@ -3907,8 +3907,8 @@
   },
   {
     "id": 280,
-    "code": "KAAN-80",
-    "category": "KAAN",
+    "code": "CENGO-80",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is an attractor in a Hopfield network?",
     "options": [
@@ -3921,8 +3921,8 @@
   },
   {
     "id": 281,
-    "code": "KAAN-81",
-    "category": "KAAN",
+    "code": "CENGO-81",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why are Hopfield networks not commonly used in modern AI?",
     "options": [
@@ -3935,8 +3935,8 @@
   },
   {
     "id": 282,
-    "code": "KAAN-82",
-    "category": "KAAN",
+    "code": "CENGO-82",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does the energy function represent in Hopfield networks?",
     "options": [
@@ -3949,8 +3949,8 @@
   },
   {
     "id": 283,
-    "code": "KAAN-83",
-    "category": "KAAN",
+    "code": "CENGO-83",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What type of association does a Hopfield network perform?",
     "options": [
@@ -3963,8 +3963,8 @@
   },
   {
     "id": 284,
-    "code": "KAAN-84",
-    "category": "KAAN",
+    "code": "CENGO-84",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What limitation of Hopfield networks motivates feedforward models?",
     "options": [
@@ -3977,8 +3977,8 @@
   },
   {
     "id": 285,
-    "code": "KAAN-85",
-    "category": "KAAN",
+    "code": "CENGO-85",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is traditional list memory insufficient for recognition tasks?",
     "options": [
@@ -3991,8 +3991,8 @@
   },
   {
     "id": 286,
-    "code": "KAAN-86",
-    "category": "KAAN",
+    "code": "CENGO-86",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main advantage of associative memory?",
     "options": [
@@ -4005,8 +4005,8 @@
   },
   {
     "id": 287,
-    "code": "KAAN-87",
-    "category": "KAAN",
+    "code": "CENGO-87",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is nearest neighbor computationally expensive for large datasets?",
     "options": [
@@ -4019,8 +4019,8 @@
   },
   {
     "id": 288,
-    "code": "KAAN-88",
-    "category": "KAAN",
+    "code": "CENGO-88",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How do neural networks handle similarity better than hand-crafted metrics?",
     "options": [
@@ -4033,8 +4033,8 @@
   },
   {
     "id": 289,
-    "code": "KAAN-89",
-    "category": "KAAN",
+    "code": "CENGO-89",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the goal of Correlation Matrix Memory (CMM)?",
     "options": [
@@ -4047,8 +4047,8 @@
   },
   {
     "id": 290,
-    "code": "KAAN-90",
-    "category": "KAAN",
+    "code": "CENGO-90",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What learning principle does CMM rely on?",
     "options": [
@@ -4061,8 +4061,8 @@
   },
   {
     "id": 291,
-    "code": "KAAN-91",
-    "category": "KAAN",
+    "code": "CENGO-91",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What kind of learning does the Binary Hebb Rule use?",
     "options": [
@@ -4075,8 +4075,8 @@
   },
   {
     "id": 292,
-    "code": "KAAN-92",
-    "category": "KAAN",
+    "code": "CENGO-92",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What happens to a weight once it becomes 1 in the Binary Hebb Rule?",
     "options": [
@@ -4089,8 +4089,8 @@
   },
   {
     "id": 293,
-    "code": "KAAN-93",
-    "category": "KAAN",
+    "code": "CENGO-93",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which patterns work best with the Binary Hebb Rule?",
     "options": [
@@ -4103,8 +4103,8 @@
   },
   {
     "id": 294,
-    "code": "KAAN-94",
-    "category": "KAAN",
+    "code": "CENGO-94",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is a major limitation of the Binary Hebb Rule?",
     "options": [
@@ -4117,8 +4117,8 @@
   },
   {
     "id": 295,
-    "code": "KAAN-95",
-    "category": "KAAN",
+    "code": "CENGO-95",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How are words encoded in the spelling correction program?",
     "options": [
@@ -4131,8 +4131,8 @@
   },
   {
     "id": 296,
-    "code": "KAAN-96",
-    "category": "KAAN",
+    "code": "CENGO-96",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why are letter pairs used instead of single letters?",
     "options": [
@@ -4145,8 +4145,8 @@
   },
   {
     "id": 297,
-    "code": "KAAN-97",
-    "category": "KAAN",
+    "code": "CENGO-97",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does the output vector represent in the spelling correction system?",
     "options": [
@@ -4159,8 +4159,8 @@
   },
   {
     "id": 298,
-    "code": "KAAN-98",
-    "category": "KAAN",
+    "code": "CENGO-98",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What happens when input is ambiguous in the spelling correction system?",
     "options": [
@@ -4173,8 +4173,8 @@
   },
   {
     "id": 299,
-    "code": "KAAN-99",
-    "category": "KAAN",
+    "code": "CENGO-99",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is threshold selection important in associative memory recall?",
     "options": [
@@ -4187,8 +4187,8 @@
   },
   {
     "id": 300,
-    "code": "KAAN-100",
-    "category": "KAAN",
+    "code": "CENGO-100",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which modern models replaced classical Hopfield networks?",
     "options": [
@@ -4201,8 +4201,8 @@
   },
   {
     "id": 301,
-    "code": "KAAN-101",
-    "category": "KAAN",
+    "code": "CENGO-101",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is a key difference between Hopfield networks and modern deep learning?",
     "options": [
@@ -4215,8 +4215,8 @@
   },
   {
     "id": 302,
-    "code": "KAAN-102",
-    "category": "KAAN",
+    "code": "CENGO-102",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What major algorithm resolved the non-differentiability limitation of Hopfield networks?",
     "options": [
@@ -4229,8 +4229,8 @@
   },
   {
     "id": 303,
-    "code": "KAAN-103",
-    "category": "KAAN",
+    "code": "CENGO-103",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the core idea of backpropagation?",
     "options": [
@@ -4243,8 +4243,8 @@
   },
   {
     "id": 304,
-    "code": "KAAN-104",
-    "category": "KAAN",
+    "code": "CENGO-104",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How does learning rate affect backpropagation?",
     "options": [
@@ -4257,8 +4257,8 @@
   },
   {
     "id": 305,
-    "code": "KAAN-105",
-    "category": "KAAN",
+    "code": "CENGO-105",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What principle do Support Vector Machines optimize?",
     "options": [
@@ -4271,8 +4271,8 @@
   },
   {
     "id": 306,
-    "code": "KAAN-106",
-    "category": "KAAN",
+    "code": "CENGO-106",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the purpose of the kernel trick in SVMs?",
     "options": [
@@ -4285,8 +4285,8 @@
   },
   {
     "id": 307,
-    "code": "KAAN-107",
-    "category": "KAAN",
+    "code": "CENGO-107",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which kernel is commonly used for complex patterns?",
     "options": [
@@ -4299,8 +4299,8 @@
   },
   {
     "id": 308,
-    "code": "KAAN-108",
-    "category": "KAAN",
+    "code": "CENGO-108",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How is associative memory implemented in modern AI?",
     "options": [
@@ -4313,8 +4313,8 @@
   },
   {
     "id": 309,
-    "code": "KAAN-109",
-    "category": "KAAN",
+    "code": "CENGO-109",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is deep learning more scalable than Hopfield networks?",
     "options": [
@@ -4327,8 +4327,8 @@
   },
   {
     "id": 310,
-    "code": "KAAN-110",
-    "category": "KAAN",
+    "code": "CENGO-110",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which factor makes Hopfield networks biologically unrealistic?",
     "options": [
@@ -4341,8 +4341,8 @@
   },
   {
     "id": 311,
-    "code": "KAAN-111",
-    "category": "KAAN",
+    "code": "CENGO-111",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What type of learning dominates modern AI applications?",
     "options": [
@@ -4355,8 +4355,8 @@
   },
   {
     "id": 312,
-    "code": "KAAN-112",
-    "category": "KAAN",
+    "code": "CENGO-112",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main motivation behind artificial neural networks?",
     "options": [
@@ -4369,8 +4369,8 @@
   },
   {
     "id": 313,
-    "code": "KAAN-113",
-    "category": "KAAN",
+    "code": "CENGO-113",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What main limitation of the perceptron motivated the development of backpropagation?",
     "options": [
@@ -4383,8 +4383,8 @@
   },
   {
     "id": 314,
-    "code": "KAAN-114",
-    "category": "KAAN",
+    "code": "CENGO-114",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Backpropagation is mainly used to train which type of neural networks?",
     "options": [
@@ -4397,8 +4397,8 @@
   },
   {
     "id": 315,
-    "code": "KAAN-115",
-    "category": "KAAN",
+    "code": "CENGO-115",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why must activation functions be differentiable in backpropagation?",
     "options": [
@@ -4411,8 +4411,8 @@
   },
   {
     "id": 316,
-    "code": "KAAN-116",
-    "category": "KAAN",
+    "code": "CENGO-116",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the role of the error (loss) function in backpropagation?",
     "options": [
@@ -4425,8 +4425,8 @@
   },
   {
     "id": 317,
-    "code": "KAAN-117",
-    "category": "KAAN",
+    "code": "CENGO-117",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which loss function is commonly used in classical backpropagation?",
     "options": [
@@ -4439,8 +4439,8 @@
   },
   {
     "id": 318,
-    "code": "KAAN-118",
-    "category": "KAAN",
+    "code": "CENGO-118",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the core idea of the backpropagation algorithm?",
     "options": [
@@ -4453,8 +4453,8 @@
   },
   {
     "id": 319,
-    "code": "KAAN-119",
-    "category": "KAAN",
+    "code": "CENGO-119",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does the learning rate (η) control in backpropagation?",
     "options": [
@@ -4467,8 +4467,8 @@
   },
   {
     "id": 320,
-    "code": "KAAN-120",
-    "category": "KAAN",
+    "code": "CENGO-120",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What happens if the learning rate is chosen too large?",
     "options": [
@@ -4481,8 +4481,8 @@
   },
   {
     "id": 321,
-    "code": "KAAN-121",
-    "category": "KAAN",
+    "code": "CENGO-121",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which problem commonly occurs in deep networks trained with backpropagation?",
     "options": [
@@ -4495,8 +4495,8 @@
   },
   {
     "id": 322,
-    "code": "KAAN-122",
-    "category": "KAAN",
+    "code": "CENGO-122",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which technique helps alleviate the vanishing gradient problem?",
     "options": [
@@ -4509,8 +4509,8 @@
   },
   {
     "id": 323,
-    "code": "KAAN-123",
-    "category": "KAAN",
+    "code": "CENGO-123",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Who first described the backpropagation algorithm?",
     "options": [
@@ -4523,8 +4523,8 @@
   },
   {
     "id": 324,
-    "code": "KAAN-124",
-    "category": "KAAN",
+    "code": "CENGO-124",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How does backpropagation differ from biological learning?",
     "options": [
@@ -4537,8 +4537,8 @@
   },
   {
     "id": 325,
-    "code": "KAAN-125",
-    "category": "KAAN",
+    "code": "CENGO-125",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What problem was NETTalk designed to solve?",
     "options": [
@@ -4551,8 +4551,8 @@
   },
   {
     "id": 326,
-    "code": "KAAN-126",
-    "category": "KAAN",
+    "code": "CENGO-126",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why is NETTalk considered historically important?",
     "options": [
@@ -4565,8 +4565,8 @@
   },
   {
     "id": 327,
-    "code": "KAAN-127",
-    "category": "KAAN",
+    "code": "CENGO-127",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How are inputs represented in NETTalk?",
     "options": [
@@ -4579,8 +4579,8 @@
   },
   {
     "id": 328,
-    "code": "KAAN-128",
-    "category": "KAAN",
+    "code": "CENGO-128",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Why does NETTalk require context information?",
     "options": [
@@ -4593,8 +4593,8 @@
   },
   {
     "id": 329,
-    "code": "KAAN-129",
-    "category": "KAAN",
+    "code": "CENGO-129",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What behavior is observed during NETTalk training?",
     "options": [
@@ -4607,8 +4607,8 @@
   },
   {
     "id": 330,
-    "code": "KAAN-130",
-    "category": "KAAN",
+    "code": "CENGO-130",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is a key limitation of NETTalk?",
     "options": [
@@ -4621,8 +4621,8 @@
   },
   {
     "id": 331,
-    "code": "KAAN-131",
-    "category": "KAAN",
+    "code": "CENGO-131",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What does NETTalk demonstrate about knowledge representation?",
     "options": [
@@ -4635,8 +4635,8 @@
   },
   {
     "id": 332,
-    "code": "KAAN-132",
-    "category": "KAAN",
+    "code": "CENGO-132",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What major problem motivates learning heuristics for theorem provers?",
     "options": [
@@ -4649,8 +4649,8 @@
   },
   {
     "id": 333,
-    "code": "KAAN-133",
-    "category": "KAAN",
+    "code": "CENGO-133",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the role of neural networks in learning heuristics for theorem proving?",
     "options": [
@@ -4663,8 +4663,8 @@
   },
   {
     "id": 334,
-    "code": "KAAN-134",
-    "category": "KAAN",
+    "code": "CENGO-134",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the input to a neural network learning heuristics for theorem provers?",
     "options": [
@@ -4677,8 +4677,8 @@
   },
   {
     "id": 335,
-    "code": "KAAN-135",
-    "category": "KAAN",
+    "code": "CENGO-135",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the output of such a heuristic-learning network?",
     "options": [
@@ -4691,8 +4691,8 @@
   },
   {
     "id": 336,
-    "code": "KAAN-136",
-    "category": "KAAN",
+    "code": "CENGO-136",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which learning method is used for heuristic learning in theorem provers?",
     "options": [
@@ -4705,8 +4705,8 @@
   },
   {
     "id": 337,
-    "code": "KAAN-137",
-    "category": "KAAN",
+    "code": "CENGO-137",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Who introduced Support Vector Machines (SVMs)?",
     "options": [
@@ -4719,8 +4719,8 @@
   },
   {
     "id": 338,
-    "code": "KAAN-138",
-    "category": "KAAN",
+    "code": "CENGO-138",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the main objective of an SVM classifier?",
     "options": [
@@ -4733,8 +4733,8 @@
   },
   {
     "id": 339,
-    "code": "KAAN-139",
-    "category": "KAAN",
+    "code": "CENGO-139",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What are support vectors in SVMs?",
     "options": [
@@ -4747,8 +4747,8 @@
   },
   {
     "id": 340,
-    "code": "KAAN-140",
-    "category": "KAAN",
+    "code": "CENGO-140",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "How do SVMs handle non-linearly separable data?",
     "options": [
@@ -4761,8 +4761,8 @@
   },
   {
     "id": 341,
-    "code": "KAAN-141",
-    "category": "KAAN",
+    "code": "CENGO-141",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "What is the purpose of the kernel trick in SVMs?",
     "options": [
@@ -4775,8 +4775,8 @@
   },
   {
     "id": 342,
-    "code": "KAAN-142",
-    "category": "KAAN",
+    "code": "CENGO-142",
+    "category": "CENGO",
     "fp_tag": "",
     "question": "Which kernel is most commonly used for complex nonlinear patterns?",
     "options": [

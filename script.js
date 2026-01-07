@@ -73,8 +73,8 @@ function renderSourcesList() {
     if (!sourcesList) return;
     countAll.textContent = allQuestions.length;
     
-    // Separate KAAN and PDF categories
-    const kaanCats = Object.keys(sources).filter(c => c === 'KAAN');
+    // Separate CENGO and PDF categories
+    const kaanCats = Object.keys(sources).filter(c => c === 'CENGO');
     const pdfCats = Object.keys(sources).filter(c => c.startsWith('PDF')).sort((a, b) => {
         const numA = parseInt(a.match(/\d+/)?.[0]) || 0;
         const numB = parseInt(b.match(/\d+/)?.[0]) || 0;
@@ -83,9 +83,9 @@ function renderSourcesList() {
     
     sourcesList.innerHTML = '';
     
-    // KAAN section
+    // CENGO section
     if (kaanCats.length > 0) {
-        sourcesList.innerHTML += '<div class="sources-divider">KAAN</div>';
+        sourcesList.innerHTML += '<div class="sources-divider">CENGO</div>';
         kaanCats.forEach(cat => {
             const isActive = currentSource === cat;
             sourcesList.innerHTML += `
