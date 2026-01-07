@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+app.py
+export_questions.py
+requirements.txt
+templates/
+static/
+data/
+questions.md
